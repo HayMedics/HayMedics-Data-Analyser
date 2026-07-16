@@ -1,0 +1,613 @@
+respondent_id,respondent_name,email,age,gender,state,Q1,Q2,Q7_Part_1,Q7_Part_2,Q7_Part_3,Q7_Part_4,Q7_Part_5,Q9_followup,monthly_income,survey_date,consent,free_text_comment
+R0000,A. Bello,resp0000@example.org,62, Female ,,,,,,,Health worker,,,20000.0,2026-03-01,Yes,N/A
+R0001,A. Bello,resp0001@example.org,50,female,LAGOS,Agree,Rarely,,Television,,,,Agree,220000.0,2026-03-15,Yes,N/A
+R0002,F. Musa,resp0002@example.org,21,Male,  Lagos,Strongly disagree,Sometimes,,,,,,Agree,55000.0,2026/03/20,Yes,-
+R0003,F. Musa,resp0003@example.org,51,female,Lagos,Strongly disagree,Rarely,,,,,,,295000.0,2026-03-15,Yes,N/A
+R0004,C. Okafor,resp0004@example.org,57, Female ,Lagos,Strongly agree,Rarely,,Television,Social media,Health worker,,,360000.0,01/03/2026,Yes,Don't know
+R0005,A. Bello,resp0005@example.org,29,Prefer not to say,Kwara,Neutral,Often,Radio,Television,,,,Agree,255000.0,15-03-2026,Yes,N/A
+R0006,C. Okafor,resp0006@example.org,62,F,LAGOS,Neutral,Always,,Television,Social media,,Newspaper,Agree,60000.0,2026-03-01,Yes,
+R0007,C. Okafor,resp0007@example.org,65,male,  Lagos,Strongly agree,Never,Radio,Television,Social media,Health worker,,Strongly disagree,75000.0,2026/03/20,Yes,-
+R0008,F. Musa,resp0008@example.org,22, Female ,  Lagos,Disagree,Often,Radio,,,,,,325000.0,2026-03-01,Yes,Don't know
+R0009,C. Okafor,resp0009@example.org,24, Female ,Oyo,Strongly agree,Always,,Television,Social media,Health worker,,Neutral,155000.0,2026-03-01,Yes,N/A
+R0010,A. Bello,resp0010@example.org,20,male,lagos,Strongly disagree,Always,,Television,Social media,,,,390000.0,15-03-2026,Yes,N/A
+R0011,C. Okafor,resp0011@example.org,60, Female ,  Lagos,Prefer not to say,Sometimes,,Television,Social media,Health worker,,,380000.0,2026/03/20,Yes,N/A
+R0012,A. Bello,resp0012@example.org,19,male,Kwara,Disagree,Never,,,Social media,Health worker,,,140000.0,2026/03/20,Yes,N/A
+R0013,T. Adeyemi,resp0013@example.org,30,Prefer not to say,,,,Radio,,Social media,,,,35000.0,2026-03-01,Yes,
+R0014,F. Musa,resp0014@example.org,66,Prefer not to say,Lagos,Disagree,Rarely,Radio,Television,Social media,Health worker,,,50000.0,15-03-2026,Yes,Nothing to add
+R0015,A. Bello,resp0015@example.org,20,Prefer not to say,Kano,Disagree,Often,,Television,Social media,Health worker,,Agree,170000.0,15-03-2026,Yes,-
+R0016,T. Adeyemi,resp0016@example.org,24,female,Rivers,Disagree,Never,,Television,,Health worker,,,325000.0,2026/03/20,Yes,N/A
+R0017,A. Bello,resp0017@example.org,69,female,Lagos,Strongly agree,Never,,Television,Social media,,,Strongly agree,30000.0,2026/03/20,Yes,
+R0018,F. Musa,resp0018@example.org,74, Female ,Kano,Prefer not to say,Sometimes,Radio,Television,Social media,Health worker,,,50000.0,2026-03-01,Yes,The clinic was far
+R0019,A. Bello,resp0019@example.org,19,F,Kano,Strongly agree,Sometimes,Radio,Television,Social media,Health worker,,,285000.0,2026/03/20,Yes,Don't know
+R0020,A. Bello,resp0020@example.org,57,Prefer not to say,LAGOS,Neutral,Never,,Television,Social media,Health worker,,Neutral,185000.0,2026/03/20,Yes,N/A
+R0021,C. Okafor,resp0021@example.org,58,male,Rivers,Strongly agree,Often,Radio,,Social media,,,,30000.0,2026-03-01,Yes,-
+R0022,F. Musa,resp0022@example.org,25,male,lagos,Strongly agree,Often,,Television,,,Newspaper,,25000.0,2026-03-15,Yes,Nothing to add
+R0023,T. Adeyemi,resp0023@example.org,23,Male,,,,,Television,Social media,Health worker,,,265000.0,2026/03/20,Yes,Don't know
+R0024,C. Okafor,resp0024@example.org,70,female,Oyo,Agree,Never,Radio,,,,,Disagree,175000.0,01/03/2026,Yes,Don't know
+R0025,A. Bello,resp0025@example.org,69,M,Kano,Disagree,Often,Radio,,,Health worker,,Agree,215000.0,2026-03-15,Yes,
+R0026,F. Musa,resp0026@example.org,37,male,LAGOS,Agree,Always,Radio,Television,,Health worker,,,170000.0,2026-03-01,Yes,
+R0027,F. Musa,resp0027@example.org,61,Prefer not to say,FCT,Agree,Always,,Television,,Health worker,Newspaper,,280000.0,2026-03-01,Yes,Nothing to add
+R0028,C. Okafor,resp0028@example.org,38,M,Lagos,Prefer not to say,Sometimes,,,Social media,,,,265000.0,2026-03-15,Yes,The clinic was far
+R0029,C. Okafor,resp0029@example.org,27,M,  Lagos,Prefer not to say,Rarely,,Television,Social media,Health worker,,,280000.0,2026/03/20,Yes,Nothing to add
+R0030,T. Adeyemi,resp0030@example.org,43,M,Kano,Strongly agree,Often,,,,,,,215000.0,2026-03-01,Yes,N/A
+R0031,C. Okafor,resp0031@example.org,66,female,Oyo,Strongly disagree,Never,Radio,Television,,Health worker,,,370000.0,01/03/2026,Yes,Don't know
+R0032,T. Adeyemi,resp0032@example.org,40,female,Oyo,Prefer not to say,Never,,,,,,,335000.0,15-03-2026,Yes,
+R0033,A. Bello,resp0033@example.org,44,female,lagos,Prefer not to say,Always,,Television,,,,,325000.0,15-03-2026,Yes,Nothing to add
+R0034,C. Okafor,resp0034@example.org,62,Prefer not to say,lagos,Agree,Sometimes,,,Social media,,,,155000.0,2026-03-15,Yes,The clinic was far
+R0035,F. Musa,resp0035@example.org,30, Female ,FCT,Neutral,Always,Radio,Television,Social media,Health worker,,Agree,265000.0,2026-03-15,Yes,Nothing to add
+R0036,A. Bello,resp0036@example.org,28,Prefer not to say,  Lagos,Agree,Always,,Television,,,,,230000.0,2026-03-15,Yes,The clinic was far
+R0037,T. Adeyemi,resp0037@example.org,49,male,LAGOS,Strongly agree,Rarely,,Television,Social media,,,,260000.0,01/03/2026,Yes,The clinic was far
+R0038,A. Bello,resp0038@example.org,73,M,Kwara,Strongly disagree,Often,Radio,Television,Social media,,,,210000.0,2026-03-15,Yes,The clinic was far
+R0039,T. Adeyemi,resp0039@example.org,31,Prefer not to say,Lagos,Agree,Never,,Television,,Health worker,Newspaper,Strongly disagree,20000.0,01/03/2026,Yes,N/A
+R0040,C. Okafor,resp0040@example.org,30,female,lagos,Prefer not to say,Never,,Television,Social media,,,,390000.0,2026-03-01,Yes,N/A
+R0041,A. Bello,resp0041@example.org,52,Male,Rivers,Strongly agree,Often,Radio,,Social media,,,,70000.0,2026-03-15,Yes,Don't know
+R0042,A. Bello,resp0042@example.org,65,F,Kwara,Neutral,Always,,Television,Social media,,,,315000.0,2026-03-01,Yes,The clinic was far
+R0043,T. Adeyemi,resp0043@example.org,60,female,  Lagos,Disagree,Always,,Television,,,,,280000.0,2026/03/20,Yes,-
+R0044,C. Okafor,resp0044@example.org,68,Male,Rivers,Agree,Rarely,,Television,Social media,,,Neutral,120000.0,15-03-2026,Yes,N/A
+R0045,F. Musa,resp0045@example.org,36, Female ,Rivers,Strongly agree,Never,,Television,Social media,,,,155000.0,15-03-2026,Yes,Don't know
+R0046,T. Adeyemi,resp0046@example.org,65,Male,Lagos,Neutral,Rarely,,Television,Social media,,,,225000.0,15-03-2026,Yes,Don't know
+R0047,F. Musa,resp0047@example.org,59,M,,,,Radio,,Social media,,,,120000.0,01/03/2026,Yes,N/A
+R0048,F. Musa,resp0048@example.org,61,F,LAGOS,Strongly agree,Sometimes,,,Social media,,,,345000.0,01/03/2026,Yes,-
+R0049,A. Bello,resp0049@example.org,50, Female ,,,,Radio,Television,Social media,,,Strongly disagree,165000.0,15-03-2026,Yes,
+R0050,T. Adeyemi,resp0050@example.org,46,Male,Kwara,Disagree,Rarely,,,Social media,Health worker,,,270000.0,2026/03/20,Yes,Nothing to add
+R0051,C. Okafor,resp0051@example.org,64,F,  Lagos,Agree,Often,Radio,Television,Social media,,Newspaper,,65000.0,01/03/2026,Yes,Don't know
+R0052,A. Bello,resp0052@example.org,25,female,Oyo,Strongly agree,Never,Radio,Television,Social media,,Newspaper,Neutral,185000.0,15-03-2026,Yes,
+R0053,F. Musa,resp0053@example.org,65,Prefer not to say,Kano,Agree,Never,,,,,Newspaper,,110000.0,2026-03-15,Yes,Nothing to add
+R0054,F. Musa,resp0054@example.org,43,Male,lagos,Prefer not to say,Sometimes,,,Social media,,Newspaper,,30000.0,15-03-2026,Yes,Don't know
+R0055,F. Musa,resp0055@example.org,999,Male,Kano,Prefer not to say,Always,,Television,,,,Disagree,305000.0,2026/03/20,Yes,Don't know
+R0056,F. Musa,resp0056@example.org,26,F,  Lagos,Prefer not to say,Often,,Television,Social media,,Newspaper,,105000.0,2026-03-15,Yes,The clinic was far
+R0057,F. Musa,resp0057@example.org,57,M,LAGOS,Strongly disagree,Often,Radio,Television,Social media,,,,-99.0,2026/03/20,Yes,The clinic was far
+R0058,C. Okafor,resp0058@example.org,48, Female ,lagos,Prefer not to say,Often,,Television,Social media,,,,315000.0,2026-03-01,Yes,
+R0059,C. Okafor,resp0059@example.org,60,female,Rivers,Strongly agree,Never,,Television,,,,,80000.0,01/03/2026,Yes,The clinic was far
+R0060,F. Musa,resp0060@example.org,47,male,Rivers,Agree,Often,,Television,Social media,,,,330000.0,01/03/2026,Yes,
+R0061,T. Adeyemi,resp0061@example.org,36,Prefer not to say,LAGOS,Neutral,Never,Radio,Television,Social media,,,Disagree,290000.0,2026/03/20,Yes,The clinic was far
+R0062,T. Adeyemi,resp0062@example.org,44, Female ,Kano,Prefer not to say,Rarely,,Television,,Health worker,,Agree,250000.0,01/03/2026,Yes,The clinic was far
+R0063,C. Okafor,resp0063@example.org,47,F,FCT,Strongly disagree,Often,Radio,,Social media,Health worker,,,100000.0,2026-03-01,Yes,The clinic was far
+R0064,F. Musa,resp0064@example.org,36,F,  Lagos,Prefer not to say,Never,,,,,,,315000.0,2026/03/20,Yes,
+R0065,C. Okafor,resp0065@example.org,55,male,,,,,Television,Social media,,,,195000.0,2026-03-01,Yes,
+R0066,A. Bello,resp0066@example.org,33, Female ,,,,Radio,Television,Social media,Health worker,,Strongly agree,245000.0,2026/03/20,Yes,Don't know
+R0067,C. Okafor,resp0067@example.org,29,M,Rivers,Agree,Sometimes,,,Social media,Health worker,,Strongly disagree,285000.0,2026-03-15,Yes,Nothing to add
+R0068,T. Adeyemi,resp0068@example.org,59, Female ,lagos,Neutral,Rarely,,,Social media,,,Neutral,190000.0,2026-03-01,Yes,Don't know
+R0069,A. Bello,resp0069@example.org,51,Prefer not to say,Kwara,Strongly agree,Often,,,,Health worker,,,145000.0,01/03/2026,Yes,Nothing to add
+R0070,C. Okafor,resp0070@example.org,55,Male,Kwara,Neutral,Often,Radio,Television,Social media,,,Agree,115000.0,01/03/2026,Yes,N/A
+R0071,F. Musa,resp0071@example.org,48,F,Rivers,Disagree,Sometimes,,,,Health worker,,,75000.0,15-03-2026,Yes,
+R0072,C. Okafor,resp0072@example.org,70,male,  Lagos,Strongly agree,Sometimes,Radio,Television,Social media,Health worker,,Neutral,375000.0,15-03-2026,Yes,Don't know
+R0073,A. Bello,resp0073@example.org,58,female,lagos,Strongly disagree,Always,,Television,,Health worker,Newspaper,,300000.0,2026-03-15,Yes,Don't know
+R0074,C. Okafor,resp0074@example.org,999,Male,Rivers,Agree,Never,Radio,,Social media,,,,350000.0,15-03-2026,Yes,Nothing to add
+R0075,C. Okafor,resp0075@example.org,71,M,Lagos,Agree,Always,,,Social media,,,,155000.0,2026-03-15,Yes,
+R0076,F. Musa,resp0076@example.org,49,male,FCT,Strongly disagree,Often,Radio,,,,Newspaper,,140000.0,2026/03/20,Yes,
+R0077,F. Musa,resp0077@example.org,30,female,Kano,Strongly disagree,Always,Radio,Television,,,Newspaper,Strongly agree,-99.0,2026-03-15,Yes,N/A
+R0078,F. Musa,resp0078@example.org,66,female,Lagos,Prefer not to say,Never,Radio,Television,,,Newspaper,,170000.0,2026-03-01,Yes,N/A
+R0079,A. Bello,resp0079@example.org,62,Male,lagos,Agree,Sometimes,,Television,Social media,,Newspaper,,335000.0,2026-03-15,Yes,The clinic was far
+R0080,A. Bello,resp0080@example.org,18,M,  Lagos,Agree,Never,,,Social media,Health worker,,,45000.0,01/03/2026,Yes,-
+R0081,F. Musa,resp0081@example.org,39,F,LAGOS,Neutral,Often,,Television,,Health worker,,,355000.0,01/03/2026,Yes,The clinic was far
+R0082,C. Okafor,resp0082@example.org,41, Female ,lagos,Agree,Often,,Television,Social media,Health worker,,,305000.0,2026-03-01,Yes,
+R0083,A. Bello,resp0083@example.org,42,Male,FCT,Disagree,Always,Radio,,Social media,,,,275000.0,2026-03-01,Yes,-
+R0084,F. Musa,resp0084@example.org,21,F,LAGOS,Disagree,Rarely,,Television,Social media,,,,180000.0,2026/03/20,Yes,N/A
+R0085,A. Bello,resp0085@example.org,53,male,Rivers,Strongly disagree,Rarely,Radio,,,,,,95000.0,2026/03/20,Yes,Don't know
+R0086,C. Okafor,resp0086@example.org,62,male,Kwara,Strongly disagree,Always,Radio,Television,Social media,,,,365000.0,2026/03/20,Yes,
+R0087,C. Okafor,resp0087@example.org,25,Prefer not to say,Kwara,Prefer not to say,Never,Radio,,Social media,,,,330000.0,2026-03-01,Yes,-
+R0088,F. Musa,resp0088@example.org,58,male,lagos,Strongly agree,Sometimes,Radio,Television,Social media,Health worker,,,140000.0,01/03/2026,Yes,-
+R0089,A. Bello,resp0089@example.org,999,M,  Lagos,Disagree,Rarely,Radio,,Social media,,,Strongly disagree,255000.0,2026-03-01,Yes,The clinic was far
+R0090,A. Bello,resp0090@example.org,70, Female ,  Lagos,Strongly agree,Often,,Television,Social media,Health worker,,Strongly agree,295000.0,2026-03-15,Yes,
+R0091,A. Bello,resp0091@example.org,30,M,  Lagos,Strongly agree,Never,Radio,Television,Social media,,,,330000.0,2026-03-01,Yes,Nothing to add
+R0092,F. Musa,resp0092@example.org,37,male,Oyo,Disagree,Never,Radio,Television,Social media,,,,115000.0,15-03-2026,Yes,The clinic was far
+R0093,T. Adeyemi,resp0093@example.org,58,F,FCT,Prefer not to say,Sometimes,Radio,Television,Social media,,,,40000.0,2026-03-15,Yes,Nothing to add
+R0094,T. Adeyemi,resp0094@example.org,43,Male,Kwara,Neutral,Sometimes,Radio,,,,,Agree,375000.0,2026/03/20,Yes,Don't know
+R0095,T. Adeyemi,resp0095@example.org,73,Prefer not to say,Kano,Neutral,Always,,Television,Social media,Health worker,,,220000.0,2026-03-01,Yes,Nothing to add
+R0096,A. Bello,resp0096@example.org,30,male,lagos,Agree,Always,,Television,Social media,Health worker,,,220000.0,2026/03/20,Yes,
+R0097,F. Musa,resp0097@example.org,19, Female ,Lagos,Strongly agree,Often,Radio,,Social media,,,,215000.0,2026-03-01,Yes,Nothing to add
+R0098,F. Musa,resp0098@example.org,34,male,  Lagos,Disagree,Always,,Television,Social media,,,,85000.0,2026/03/20,Yes,
+R0099,T. Adeyemi,resp0099@example.org,47, Female ,Kwara,Neutral,Sometimes,Radio,Television,,,,,90000.0,01/03/2026,Yes,
+R0100,A. Bello,resp0100@example.org,47,Prefer not to say,LAGOS,Prefer not to say,Always,Radio,Television,,Health worker,,Disagree,120000.0,2026/03/20,Yes,N/A
+R0101,A. Bello,resp0101@example.org,41, Female ,Kano,Agree,Always,Radio,,Social media,,,,305000.0,01/03/2026,Yes,-
+R0102,T. Adeyemi,resp0102@example.org,44,Prefer not to say,Rivers,Agree,Always,,,,,Newspaper,,165000.0,2026-03-01,Yes,Don't know
+R0103,F. Musa,resp0103@example.org,50,Male,LAGOS,Strongly disagree,Sometimes,Radio,Television,Social media,,,,60000.0,01/03/2026,Yes,The clinic was far
+R0104,A. Bello,resp0104@example.org,41,Male,  Lagos,Strongly agree,Sometimes,Radio,,Social media,Health worker,,,215000.0,01/03/2026,Yes,N/A
+R0105,T. Adeyemi,resp0105@example.org,59,Prefer not to say,Oyo,Prefer not to say,Often,,Television,Social media,Health worker,,Strongly agree,390000.0,2026/03/20,Yes,The clinic was far
+R0106,F. Musa,resp0106@example.org,30, Female ,Lagos,Strongly disagree,Rarely,,,Social media,Health worker,,Strongly agree,345000.0,2026-03-01,Yes,Don't know
+R0107,C. Okafor,resp0107@example.org,60,female,Rivers,Agree,Never,,Television,Social media,,Newspaper,,235000.0,2026-03-01,Yes,Nothing to add
+R0108,A. Bello,resp0108@example.org,39,Prefer not to say,lagos,Strongly disagree,Often,,Television,Social media,,,,70000.0,2026/03/20,Yes,Don't know
+R0109,C. Okafor,resp0109@example.org,999, Female ,LAGOS,Neutral,Rarely,,,,,,,90000.0,2026-03-01,Yes,Don't know
+R0110,T. Adeyemi,resp0110@example.org,999, Female ,Kano,Strongly disagree,Rarely,,Television,Social media,,,,305000.0,2026-03-15,Yes,
+R0111,C. Okafor,resp0111@example.org,33, Female ,,,,Radio,,Social media,,,,250000.0,2026-03-15,Yes,N/A
+R0112,T. Adeyemi,resp0112@example.org,38,Prefer not to say,LAGOS,Neutral,Never,,Television,Social media,,,,210000.0,2026-03-01,Yes,
+R0113,F. Musa,resp0113@example.org,34,M,  Lagos,Disagree,Often,Radio,Television,,,,Neutral,40000.0,2026-03-01,Yes,Don't know
+R0114,F. Musa,resp0114@example.org,47,Prefer not to say,Oyo,Strongly disagree,Rarely,,,Social media,Health worker,,,235000.0,2026-03-15,Yes,The clinic was far
+R0115,A. Bello,resp0115@example.org,53,female,lagos,Neutral,Sometimes,,Television,Social media,,,,180000.0,01/03/2026,Yes,
+R0116,C. Okafor,resp0116@example.org,46,F,  Lagos,Strongly agree,Never,Radio,Television,Social media,,,Agree,130000.0,2026-03-01,Yes,N/A
+R0117,T. Adeyemi,resp0117@example.org,26,male,lagos,Strongly disagree,Sometimes,,,Social media,Health worker,,,105000.0,01/03/2026,Yes,-
+R0118,A. Bello,resp0118@example.org,27,Prefer not to say,Oyo,Disagree,Often,Radio,Television,Social media,,,,395000.0,2026-03-01,Yes,
+R0119,T. Adeyemi,resp0119@example.org,48,M,  Lagos,Strongly agree,Never,Radio,Television,Social media,,,Disagree,355000.0,2026/03/20,Yes,N/A
+R0120,C. Okafor,resp0120@example.org,42,F,,,,Radio,Television,Social media,,,,335000.0,2026-03-15,Yes,
+R0121,F. Musa,resp0121@example.org,23,male,Rivers,Strongly agree,Always,Radio,,Social media,,,Strongly agree,390000.0,2026-03-15,Yes,Nothing to add
+R0122,A. Bello,resp0122@example.org,20,Male,Rivers,Prefer not to say,Rarely,,Television,Social media,,,Neutral,195000.0,15-03-2026,Yes,N/A
+R0123,T. Adeyemi,resp0123@example.org,34,M,Lagos,Prefer not to say,Never,Radio,Television,Social media,,Newspaper,,205000.0,2026-03-15,Yes,The clinic was far
+R0124,F. Musa,resp0124@example.org,47,F,Lagos,Neutral,Rarely,,Television,Social media,Health worker,,Agree,395000.0,15-03-2026,Yes,N/A
+R0125,C. Okafor,resp0125@example.org,67, Female ,FCT,Disagree,Rarely,,Television,Social media,,Newspaper,,255000.0,2026/03/20,Yes,The clinic was far
+R0126,C. Okafor,resp0126@example.org,52, Female ,Kwara,Strongly disagree,Sometimes,,,Social media,,,,70000.0,15-03-2026,Yes,N/A
+R0127,F. Musa,resp0127@example.org,63,M,FCT,Strongly disagree,Often,Radio,Television,Social media,Health worker,,,290000.0,2026/03/20,Yes,-
+R0128,A. Bello,resp0128@example.org,23,Male,  Lagos,Neutral,Sometimes,,Television,Social media,,,,30000.0,2026-03-01,Yes,
+R0129,F. Musa,resp0129@example.org,66,M,LAGOS,Agree,Rarely,,Television,Social media,,,Strongly agree,195000.0,2026/03/20,Yes,-
+R0130,T. Adeyemi,resp0130@example.org,60,F,Rivers,Agree,Never,Radio,,,,,,20000.0,2026/03/20,Yes,The clinic was far
+R0131,C. Okafor,resp0131@example.org,61,Male,lagos,Disagree,Always,,,,Health worker,,Strongly disagree,370000.0,2026-03-01,Yes,N/A
+R0132,F. Musa,resp0132@example.org,41,female,,,,,,,,,Strongly disagree,90000.0,2026/03/20,Yes,N/A
+R0133,T. Adeyemi,resp0133@example.org,48,M,FCT,Disagree,Often,,Television,Social media,,,,170000.0,2026/03/20,Yes,The clinic was far
+R0134,C. Okafor,resp0134@example.org,32,F,Rivers,Disagree,Sometimes,,,Social media,,,Strongly agree,180000.0,2026-03-15,Yes,
+R0135,T. Adeyemi,resp0135@example.org,72,M,FCT,Disagree,Sometimes,Radio,,Social media,,,,310000.0,01/03/2026,Yes,N/A
+R0136,F. Musa,resp0136@example.org,74,F,Rivers,Disagree,Never,,Television,Social media,,,,150000.0,2026-03-01,Yes,
+R0137,T. Adeyemi,resp0137@example.org,21,male,Oyo,Strongly disagree,Always,,Television,Social media,,,,130000.0,2026-03-15,Yes,-
+R0138,A. Bello,resp0138@example.org,73,Prefer not to say,Lagos,Prefer not to say,Always,Radio,,,Health worker,,Agree,115000.0,2026-03-01,Yes,The clinic was far
+R0139,C. Okafor,resp0139@example.org,74,male,Rivers,Strongly disagree,Never,Radio,,,,,,350000.0,2026/03/20,Yes,The clinic was far
+R0140,C. Okafor,resp0140@example.org,69,F,lagos,Neutral,Rarely,,Television,,,,,-99.0,2026-03-15,Yes,-
+R0141,C. Okafor,resp0141@example.org,26,F,  Lagos,Agree,Always,Radio,Television,Social media,,,,160000.0,2026-03-01,Yes,-
+R0142,T. Adeyemi,resp0142@example.org,63, Female ,FCT,Neutral,Always,,Television,Social media,,Newspaper,,80000.0,15-03-2026,Yes,-
+R0143,F. Musa,resp0143@example.org,59,Male,Rivers,Neutral,Always,Radio,,Social media,,,Neutral,270000.0,2026/03/20,Yes,The clinic was far
+R0144,C. Okafor,resp0144@example.org,63,female,Lagos,Strongly agree,Often,,Television,,Health worker,,,325000.0,01/03/2026,Yes,Nothing to add
+R0145,C. Okafor,resp0145@example.org,35,Prefer not to say,LAGOS,Agree,Never,,,Social media,,,,40000.0,15-03-2026,Yes,N/A
+R0146,T. Adeyemi,resp0146@example.org,51,Male,LAGOS,Agree,Sometimes,,Television,,,,,30000.0,15-03-2026,Yes,-
+R0147,A. Bello,resp0147@example.org,74,Male,,,,,,,,,,270000.0,2026-03-15,Yes,The clinic was far
+R0148,T. Adeyemi,resp0148@example.org,39,Male,LAGOS,Disagree,Sometimes,Radio,,Social media,Health worker,,,-99.0,2026-03-01,Yes,-
+R0149,T. Adeyemi,resp0149@example.org,49,M,Kano,Disagree,Often,Radio,Television,,,Newspaper,,270000.0,2026/03/20,Yes,
+R0150,A. Bello,resp0150@example.org,21,F,Kwara,Agree,Always,,,Social media,Health worker,,Strongly agree,140000.0,2026-03-01,Yes,N/A
+R0151,F. Musa,resp0151@example.org,29,Prefer not to say,FCT,Strongly agree,Always,,,Social media,,,,335000.0,01/03/2026,Yes,The clinic was far
+R0152,A. Bello,resp0152@example.org,50,F,Oyo,Prefer not to say,Often,,Television,Social media,,,Strongly agree,205000.0,15-03-2026,Yes,The clinic was far
+R0153,T. Adeyemi,resp0153@example.org,26,Prefer not to say,LAGOS,Agree,Rarely,,Television,,,,Strongly agree,265000.0,15-03-2026,Yes,Nothing to add
+R0154,T. Adeyemi,resp0154@example.org,30, Female ,Kano,Neutral,Never,,,Social media,,,,175000.0,15-03-2026,Yes,Don't know
+R0155,A. Bello,resp0155@example.org,70,Male,Kano,Strongly agree,Always,Radio,Television,,,,,140000.0,01/03/2026,Yes,Don't know
+R0156,T. Adeyemi,resp0156@example.org,73,female,Kano,Agree,Rarely,,,Social media,,,Neutral,235000.0,2026/03/20,Yes,The clinic was far
+R0157,T. Adeyemi,resp0157@example.org,63,Prefer not to say,FCT,Disagree,Sometimes,Radio,Television,,,Newspaper,,355000.0,2026/03/20,Yes,Nothing to add
+R0158,F. Musa,resp0158@example.org,24,female,FCT,Disagree,Often,,Television,Social media,,,,315000.0,15-03-2026,Yes,The clinic was far
+R0159,F. Musa,resp0159@example.org,25,female,LAGOS,Agree,Rarely,,Television,Social media,Health worker,Newspaper,Strongly disagree,35000.0,2026-03-01,Yes,The clinic was far
+R0160,C. Okafor,resp0160@example.org,19,male,Oyo,Strongly disagree,Rarely,,Television,Social media,,,Agree,315000.0,2026-03-01,Yes,
+R0161,T. Adeyemi,resp0161@example.org,999,Male,LAGOS,Prefer not to say,Sometimes,,Television,Social media,,,,115000.0,2026-03-01,Yes,
+R0162,C. Okafor,resp0162@example.org,27,F,LAGOS,Neutral,Sometimes,Radio,Television,Social media,,,,145000.0,2026-03-15,Yes,Don't know
+R0163,A. Bello,resp0163@example.org,56,Prefer not to say,Kwara,Strongly disagree,Often,Radio,Television,Social media,Health worker,,,320000.0,15-03-2026,Yes,Don't know
+R0164,A. Bello,resp0164@example.org,72,F,Kwara,Disagree,Rarely,,,Social media,Health worker,,,180000.0,2026/03/20,Yes,Nothing to add
+R0165,C. Okafor,resp0165@example.org,74,Prefer not to say,,,,,,,,Newspaper,,105000.0,2026/03/20,Yes,N/A
+R0166,T. Adeyemi,resp0166@example.org,58,F,FCT,Agree,Rarely,,,Social media,,,,65000.0,15-03-2026,Yes,N/A
+R0167,F. Musa,resp0167@example.org,53,Prefer not to say,  Lagos,Neutral,Never,,,Social media,Health worker,,,245000.0,15-03-2026,Yes,N/A
+R0168,T. Adeyemi,resp0168@example.org,20,Prefer not to say,Rivers,Disagree,Never,Radio,Television,,,,,205000.0,2026-03-15,Yes,
+R0169,F. Musa,resp0169@example.org,43, Female ,Rivers,Strongly disagree,Rarely,Radio,Television,Social media,,Newspaper,Strongly disagree,230000.0,2026/03/20,Yes,
+R0170,F. Musa,resp0170@example.org,70,M,Kwara,Neutral,Often,Radio,Television,,,,,370000.0,2026/03/20,Yes,N/A
+R0171,C. Okafor,resp0171@example.org,23, Female ,Rivers,Neutral,Often,Radio,Television,Social media,Health worker,,,235000.0,2026-03-15,Yes,N/A
+R0172,T. Adeyemi,resp0172@example.org,53,F,Kano,Agree,Never,Radio,Television,Social media,,,,215000.0,15-03-2026,Yes,-
+R0173,C. Okafor,resp0173@example.org,34, Female ,Kano,Agree,Sometimes,Radio,Television,Social media,,,,370000.0,01/03/2026,Yes,-
+R0174,T. Adeyemi,resp0174@example.org,38,Male,Kano,Strongly agree,Always,Radio,,Social media,,,,135000.0,15-03-2026,Yes,-
+R0175,A. Bello,resp0175@example.org,67,Prefer not to say,  Lagos,Prefer not to say,Often,Radio,Television,Social media,Health worker,,,245000.0,2026-03-01,Yes,The clinic was far
+R0176,T. Adeyemi,resp0176@example.org,52,M,LAGOS,Strongly agree,Often,,,Social media,,,,55000.0,2026-03-01,Yes,N/A
+R0177,F. Musa,resp0177@example.org,25,male,Kwara,Strongly agree,Often,,Television,,Health worker,Newspaper,,145000.0,2026/03/20,Yes,Don't know
+R0178,C. Okafor,resp0178@example.org,43, Female ,  Lagos,Agree,Always,,Television,,,,,55000.0,2026-03-01,Yes,Don't know
+R0179,F. Musa,resp0179@example.org,36,M,Kano,Strongly agree,Often,Radio,Television,,,Newspaper,Strongly disagree,75000.0,2026-03-01,Yes,-
+R0180,C. Okafor,resp0180@example.org,74,male,Kano,Strongly agree,Rarely,,Television,Social media,,,,120000.0,01/03/2026,Yes,Don't know
+R0181,T. Adeyemi,resp0181@example.org,999,male,Kano,Agree,Always,,Television,Social media,Health worker,,,45000.0,2026/03/20,Yes,
+R0182,C. Okafor,resp0182@example.org,38, Female ,Kano,Agree,Never,Radio,,Social media,,,,395000.0,15-03-2026,Yes,Nothing to add
+R0183,F. Musa,resp0183@example.org,69,M,Oyo,Prefer not to say,Sometimes,,Television,Social media,,,Strongly disagree,120000.0,2026-03-15,Yes,Don't know
+R0184,T. Adeyemi,resp0184@example.org,41,F,Oyo,Strongly agree,Often,,Television,Social media,,,Disagree,360000.0,01/03/2026,Yes,The clinic was far
+R0185,C. Okafor,resp0185@example.org,35,Prefer not to say,,,,,,Social media,Health worker,,Strongly agree,325000.0,15-03-2026,Yes,The clinic was far
+R0186,T. Adeyemi,resp0186@example.org,60,Prefer not to say,lagos,Agree,Rarely,Radio,Television,,Health worker,,,345000.0,2026-03-15,Yes,N/A
+R0187,T. Adeyemi,resp0187@example.org,50,F,Lagos,Strongly agree,Never,Radio,Television,,,,,285000.0,2026/03/20,Yes,N/A
+R0188,A. Bello,resp0188@example.org,62,Prefer not to say,Kano,Neutral,Never,,Television,,,,,155000.0,01/03/2026,Yes,Don't know
+R0189,F. Musa,resp0189@example.org,70,male,  Lagos,Disagree,Always,Radio,Television,Social media,Health worker,,,180000.0,2026/03/20,Yes,Nothing to add
+R0190,F. Musa,resp0190@example.org,33,F,Rivers,Strongly agree,Never,Radio,,Social media,Health worker,,Disagree,85000.0,01/03/2026,Yes,N/A
+R0191,C. Okafor,resp0191@example.org,63,Prefer not to say,  Lagos,Agree,Rarely,,Television,Social media,,,,60000.0,15-03-2026,Yes,Nothing to add
+R0192,F. Musa,resp0192@example.org,44,M,FCT,Strongly agree,Never,,,Social media,,,,230000.0,2026-03-01,Yes,Nothing to add
+R0193,T. Adeyemi,resp0193@example.org,67,female,lagos,Neutral,Sometimes,,Television,Social media,,,,220000.0,2026-03-01,Yes,
+R0194,T. Adeyemi,resp0194@example.org,999,Male,Oyo,Agree,Often,Radio,,Social media,,Newspaper,Neutral,105000.0,2026-03-15,Yes,
+R0195,F. Musa,resp0195@example.org,20, Female ,Oyo,Strongly disagree,Often,,,,,Newspaper,,65000.0,2026-03-01,Yes,N/A
+R0196,C. Okafor,resp0196@example.org,52,female,LAGOS,Prefer not to say,Often,Radio,,,,,,85000.0,15-03-2026,Yes,
+R0197,A. Bello,resp0197@example.org,61,Prefer not to say,Lagos,Strongly disagree,Sometimes,Radio,Television,Social media,,,Disagree,45000.0,2026/03/20,Yes,Nothing to add
+R0198,C. Okafor,resp0198@example.org,43, Female ,Kano,Prefer not to say,Rarely,,,Social media,Health worker,,Disagree,80000.0,2026/03/20,Yes,Don't know
+R0199,T. Adeyemi,resp0199@example.org,35,Prefer not to say,Oyo,Disagree,Sometimes,,Television,Social media,,,,20000.0,2026-03-15,Yes,N/A
+R0200,C. Okafor,resp0200@example.org,62,M,,,,,,Social media,,,,385000.0,2026-03-01,Yes,Nothing to add
+R0201,A. Bello,resp0201@example.org,38, Female ,,,,,Television,Social media,,,,50000.0,2026-03-01,Yes,Nothing to add
+R0202,F. Musa,resp0202@example.org,28,Male,Kwara,Agree,Always,Radio,,,,,Strongly agree,345000.0,2026/03/20,Yes,N/A
+R0203,F. Musa,resp0203@example.org,20,F,Kano,Disagree,Always,Radio,Television,,,,Neutral,280000.0,01/03/2026,Yes,
+R0204,T. Adeyemi,resp0204@example.org,22,M,Kwara,Neutral,Rarely,Radio,,,Health worker,,Strongly agree,335000.0,2026-03-15,Yes,N/A
+R0205,F. Musa,resp0205@example.org,61,Male,Kwara,Neutral,Often,Radio,Television,,,Newspaper,,295000.0,2026/03/20,Yes,-
+R0206,C. Okafor,resp0206@example.org,38,female,Rivers,Strongly disagree,Always,,Television,,Health worker,,Strongly disagree,160000.0,2026-03-01,Yes,The clinic was far
+R0207,C. Okafor,resp0207@example.org,26,Prefer not to say,,,,Radio,Television,,,,,370000.0,2026-03-15,Yes,
+R0208,A. Bello,resp0208@example.org,26,female,LAGOS,Strongly disagree,Often,Radio,Television,Social media,,,,355000.0,15-03-2026,Yes,
+R0209,F. Musa,resp0209@example.org,51,Prefer not to say,Rivers,Prefer not to say,Always,Radio,Television,,,,,350000.0,01/03/2026,Yes,N/A
+R0210,T. Adeyemi,resp0210@example.org,999,female,LAGOS,Neutral,Never,,Television,Social media,,,Strongly disagree,135000.0,2026/03/20,Yes,N/A
+R0211,A. Bello,resp0211@example.org,24,male,Rivers,Strongly disagree,Never,,,Social media,,,,55000.0,2026/03/20,Yes,
+R0212,T. Adeyemi,resp0212@example.org,19,F,Kwara,Agree,Rarely,Radio,Television,Social media,,,,210000.0,2026-03-15,Yes,The clinic was far
+R0213,A. Bello,resp0213@example.org,75,female,Oyo,Strongly agree,Never,Radio,Television,Social media,,,Disagree,290000.0,2026-03-15,Yes,The clinic was far
+R0214,A. Bello,resp0214@example.org,20,female,Rivers,Prefer not to say,Always,Radio,,Social media,Health worker,,Neutral,255000.0,2026/03/20,Yes,
+R0215,F. Musa,resp0215@example.org,67,female,Kwara,Agree,Often,,Television,Social media,Health worker,,,80000.0,2026-03-01,Yes,
+R0216,C. Okafor,resp0216@example.org,23,female,  Lagos,Neutral,Never,,Television,,Health worker,Newspaper,,285000.0,01/03/2026,Yes,
+R0217,F. Musa,resp0217@example.org,22,Male,lagos,Strongly disagree,Rarely,,Television,,,,,275000.0,01/03/2026,Yes,-
+R0218,C. Okafor,resp0218@example.org,32, Female ,lagos,Disagree,Never,,,Social media,,,Agree,40000.0,2026-03-01,Yes,-
+R0219,T. Adeyemi,resp0219@example.org,27,male,LAGOS,Disagree,Always,,,,,,,315000.0,2026-03-15,Yes,Nothing to add
+R0220,T. Adeyemi,resp0220@example.org,32,female,Kwara,Neutral,Always,Radio,,,Health worker,,,340000.0,2026-03-15,Yes,Nothing to add
+R0221,C. Okafor,resp0221@example.org,21,female,Kano,Neutral,Always,,,Social media,,,,250000.0,2026-03-15,Yes,N/A
+R0222,F. Musa,resp0222@example.org,66,male,FCT,Strongly agree,Never,,Television,Social media,Health worker,,Agree,350000.0,2026-03-15,Yes,N/A
+R0223,A. Bello,resp0223@example.org,18,female,,,,,Television,Social media,,,,115000.0,2026-03-15,Yes,
+R0224,C. Okafor,resp0224@example.org,64,Male,LAGOS,Neutral,Never,Radio,,Social media,Health worker,,Disagree,105000.0,15-03-2026,Yes,Don't know
+R0225,F. Musa,resp0225@example.org,26,male,LAGOS,Prefer not to say,Always,,Television,Social media,Health worker,,,190000.0,01/03/2026,Yes,N/A
+R0226,T. Adeyemi,resp0226@example.org,69,Prefer not to say,Kwara,Disagree,Always,Radio,,Social media,,Newspaper,,320000.0,01/03/2026,Yes,-
+R0227,C. Okafor,resp0227@example.org,37, Female ,Oyo,Prefer not to say,Never,,,,,Newspaper,,135000.0,01/03/2026,Yes,Don't know
+R0228,F. Musa,resp0228@example.org,65,Male,Kwara,Strongly disagree,Often,,Television,Social media,,,Neutral,350000.0,15-03-2026,Yes,
+R0229,C. Okafor,resp0229@example.org,25,M,Lagos,Strongly disagree,Sometimes,Radio,Television,Social media,,,,105000.0,2026-03-01,Yes,Nothing to add
+R0230,A. Bello,resp0230@example.org,36,F,lagos,Prefer not to say,Never,,,Social media,,Newspaper,,215000.0,01/03/2026,Yes,N/A
+R0231,F. Musa,resp0231@example.org,57, Female ,Rivers,Disagree,Never,Radio,Television,,Health worker,,,275000.0,2026-03-01,Yes,-
+R0232,T. Adeyemi,resp0232@example.org,27,Male,,,,,,Social media,Health worker,,,305000.0,15-03-2026,Yes,Don't know
+R0233,T. Adeyemi,resp0233@example.org,26, Female ,  Lagos,Neutral,Rarely,,Television,Social media,Health worker,,Strongly disagree,100000.0,2026-03-01,Yes,
+R0234,T. Adeyemi,resp0234@example.org,63,F,Kano,Strongly agree,Never,,,Social media,,,,305000.0,2026/03/20,Yes,N/A
+R0235,A. Bello,resp0235@example.org,40,Prefer not to say,Kwara,Strongly agree,Always,,,Social media,,Newspaper,,290000.0,01/03/2026,Yes,N/A
+R0236,C. Okafor,resp0236@example.org,23,Male,  Lagos,Strongly disagree,Often,Radio,,Social media,,,,45000.0,2026-03-01,Yes,The clinic was far
+R0237,F. Musa,resp0237@example.org,69, Female ,LAGOS,Agree,Never,,,Social media,,,,95000.0,2026/03/20,Yes,Nothing to add
+R0238,A. Bello,resp0238@example.org,74,Male,Lagos,Neutral,Always,,,Social media,,,,305000.0,2026-03-01,Yes,N/A
+R0239,C. Okafor,resp0239@example.org,54,F,  Lagos,Strongly disagree,Often,,Television,Social media,,,Neutral,,2026-03-15,Yes,-
+R0240,T. Adeyemi,resp0240@example.org,69,male,Lagos,Disagree,Rarely,Radio,,,,,Strongly agree,60000.0,01/03/2026,Yes,The clinic was far
+R0241,T. Adeyemi,resp0241@example.org,62,M,LAGOS,Neutral,Never,,Television,Social media,,Newspaper,Strongly agree,365000.0,2026-03-01,Yes,N/A
+R0242,C. Okafor,resp0242@example.org,68,Male,Kano,Strongly disagree,Often,Radio,Television,Social media,,,Agree,80000.0,2026-03-01,Yes,N/A
+R0243,T. Adeyemi,resp0243@example.org,26,Prefer not to say,lagos,Strongly agree,Always,Radio,Television,,,,,185000.0,2026-03-01,Yes,The clinic was far
+R0244,C. Okafor,resp0244@example.org,69,female,Kano,Prefer not to say,Rarely,Radio,Television,Social media,,,Strongly disagree,305000.0,01/03/2026,Yes,Don't know
+R0245,A. Bello,resp0245@example.org,29, Female ,Rivers,Prefer not to say,Sometimes,,Television,Social media,Health worker,,Strongly agree,255000.0,2026/03/20,Yes,
+R0246,F. Musa,resp0246@example.org,50,male,Rivers,Neutral,Never,,Television,Social media,,,Neutral,125000.0,01/03/2026,Yes,Nothing to add
+R0247,A. Bello,resp0247@example.org,66,Prefer not to say,  Lagos,Prefer not to say,Sometimes,,,Social media,,,,270000.0,15-03-2026,Yes,The clinic was far
+R0248,C. Okafor,resp0248@example.org,36,male,Kano,Prefer not to say,Always,,Television,,,,,110000.0,2026/03/20,Yes,N/A
+R0249,T. Adeyemi,resp0249@example.org,23,male,Rivers,Prefer not to say,Always,,Television,Social media,,Newspaper,Neutral,145000.0,2026-03-15,Yes,The clinic was far
+R0250,F. Musa,resp0250@example.org,38, Female ,,,,,,Social media,,Newspaper,,125000.0,2026/03/20,Yes,
+R0251,T. Adeyemi,resp0251@example.org,48, Female ,  Lagos,Strongly disagree,Rarely,Radio,Television,Social media,,,,295000.0,01/03/2026,Yes,-
+R0252,C. Okafor,resp0252@example.org,64,Male,lagos,Neutral,Rarely,Radio,Television,Social media,Health worker,,,370000.0,01/03/2026,Yes,The clinic was far
+R0253,A. Bello,resp0253@example.org,23,F,  Lagos,Prefer not to say,Often,,,Social media,Health worker,,,240000.0,2026-03-01,Yes,-
+R0254,C. Okafor,resp0254@example.org,999,male,Kwara,Prefer not to say,Rarely,Radio,,Social media,Health worker,,,200000.0,01/03/2026,Yes,
+R0255,F. Musa,resp0255@example.org,75, Female ,lagos,Prefer not to say,Always,,Television,,,,,315000.0,2026-03-15,Yes,N/A
+R0256,T. Adeyemi,resp0256@example.org,999,female,Kano,Prefer not to say,Rarely,Radio,Television,Social media,Health worker,,Strongly disagree,245000.0,2026-03-15,Yes,Nothing to add
+R0257,A. Bello,resp0257@example.org,57,Male,,,,,Television,Social media,,,,-99.0,2026-03-15,Yes,The clinic was far
+R0258,F. Musa,resp0258@example.org,54,F,Oyo,Agree,Never,,,Social media,,,,390000.0,01/03/2026,Yes,-
+R0259,C. Okafor,resp0259@example.org,37,male,  Lagos,Neutral,Rarely,Radio,Television,Social media,,,,-99.0,2026-03-01,Yes,Don't know
+R0260,A. Bello,resp0260@example.org,68,F,lagos,Disagree,Never,,Television,,,,Agree,190000.0,2026-03-15,Yes,The clinic was far
+R0261,C. Okafor,resp0261@example.org,70,Male,Rivers,Neutral,Sometimes,,Television,,,Newspaper,Disagree,110000.0,2026-03-15,Yes,-
+R0262,F. Musa,resp0262@example.org,71,male,Lagos,Neutral,Sometimes,Radio,Television,,Health worker,,,310000.0,15-03-2026,Yes,Don't know
+R0263,C. Okafor,resp0263@example.org,22,female,Kwara,Disagree,Never,,Television,,,,,245000.0,2026-03-15,Yes,Nothing to add
+R0264,C. Okafor,resp0264@example.org,45,M,Lagos,Agree,Often,Radio,Television,Social media,,,Strongly agree,365000.0,01/03/2026,Yes,Don't know
+R0265,A. Bello,resp0265@example.org,42,male,Kano,Agree,Sometimes,,,Social media,,,,395000.0,2026-03-01,Yes,
+R0266,C. Okafor,resp0266@example.org,47,Prefer not to say,lagos,Agree,Rarely,Radio,Television,Social media,,Newspaper,,145000.0,2026/03/20,Yes,Don't know
+R0267,C. Okafor,resp0267@example.org,20,M,lagos,Strongly agree,Often,Radio,Television,Social media,,,,,2026-03-01,Yes,The clinic was far
+R0268,A. Bello,resp0268@example.org,67,Male,,,,Radio,,,,Newspaper,,145000.0,15-03-2026,Yes,-
+R0269,T. Adeyemi,resp0269@example.org,60,male,FCT,Prefer not to say,Often,Radio,,Social media,,,,190000.0,2026/03/20,Yes,Nothing to add
+R0270,A. Bello,resp0270@example.org,999,female,lagos,Disagree,Often,Radio,,Social media,,,,295000.0,01/03/2026,Yes,Don't know
+R0271,T. Adeyemi,resp0271@example.org,999,male,Lagos,Agree,Often,,,Social media,,,Strongly disagree,355000.0,15-03-2026,Yes,Nothing to add
+R0272,C. Okafor,resp0272@example.org,59,F,Oyo,Prefer not to say,Rarely,Radio,,Social media,,,,270000.0,2026/03/20,Yes,Don't know
+R0273,F. Musa,resp0273@example.org,40, Female ,Rivers,Agree,Rarely,Radio,,,,,,355000.0,2026-03-15,Yes,Don't know
+R0274,C. Okafor,resp0274@example.org,27,female,Rivers,Prefer not to say,Sometimes,,Television,,,,,350000.0,2026-03-15,Yes,Don't know
+R0275,F. Musa,resp0275@example.org,50,M,  Lagos,Prefer not to say,Always,Radio,,,,Newspaper,Disagree,35000.0,2026-03-01,Yes,N/A
+R0276,C. Okafor,resp0276@example.org,33,male,Rivers,Disagree,Never,,Television,,Health worker,,Strongly disagree,395000.0,2026/03/20,Yes,N/A
+R0277,T. Adeyemi,resp0277@example.org,30,F,Rivers,Prefer not to say,Never,,Television,,,,,355000.0,2026-03-01,Yes,
+R0278,C. Okafor,resp0278@example.org,54,Prefer not to say,lagos,Disagree,Sometimes,,Television,Social media,,,,190000.0,15-03-2026,Yes,N/A
+R0279,A. Bello,resp0279@example.org,26,female,LAGOS,Strongly disagree,Often,Radio,Television,Social media,Health worker,,,-99.0,2026-03-15,Yes,The clinic was far
+R0280,C. Okafor,resp0280@example.org,999,female,FCT,Strongly agree,Never,,,,,,,355000.0,2026-03-15,Yes,
+R0281,F. Musa,resp0281@example.org,48,female,Oyo,Strongly agree,Never,,Television,Social media,,,,140000.0,2026-03-15,Yes,-
+R0282,C. Okafor,resp0282@example.org,75,Prefer not to say,LAGOS,Agree,Always,,,Social media,,,,395000.0,2026/03/20,Yes,N/A
+R0283,F. Musa,resp0283@example.org,39,Prefer not to say,Lagos,Agree,Sometimes,,Television,,,,,330000.0,15-03-2026,Yes,The clinic was far
+R0284,C. Okafor,resp0284@example.org,35,F,Lagos,Strongly disagree,Rarely,,,Social media,,,Disagree,275000.0,2026-03-01,Yes,N/A
+R0285,T. Adeyemi,resp0285@example.org,56,Prefer not to say,Lagos,Prefer not to say,Rarely,Radio,,Social media,Health worker,,,165000.0,2026/03/20,Yes,
+R0286,C. Okafor,resp0286@example.org,73, Female ,  Lagos,Agree,Often,,Television,Social media,,,,45000.0,2026/03/20,Yes,
+R0287,A. Bello,resp0287@example.org,37,F,Lagos,Neutral,Sometimes,,Television,,,,,20000.0,15-03-2026,Yes,N/A
+R0288,C. Okafor,resp0288@example.org,62,M,LAGOS,Neutral,Rarely,Radio,,,,,,-99.0,2026/03/20,Yes,Nothing to add
+R0289,A. Bello,resp0289@example.org,999,F,,,,,Television,,,,Agree,330000.0,01/03/2026,Yes,N/A
+R0290,F. Musa,resp0290@example.org,27,Male,Oyo,Prefer not to say,Always,,,,,,Strongly agree,50000.0,2026-03-15,Yes,Don't know
+R0291,A. Bello,resp0291@example.org,27,male,lagos,Neutral,Sometimes,Radio,,Social media,,,Neutral,315000.0,15-03-2026,Yes,-
+R0292,F. Musa,resp0292@example.org,59,F,Oyo,Strongly agree,Always,Radio,Television,Social media,Health worker,,,145000.0,15-03-2026,Yes,-
+R0293,C. Okafor,resp0293@example.org,58,male,,,,,,Social media,Health worker,,,55000.0,2026-03-15,Yes,N/A
+R0294,C. Okafor,resp0294@example.org,31,male,Lagos,Prefer not to say,Never,,,Social media,,,,380000.0,01/03/2026,Yes,
+R0295,T. Adeyemi,resp0295@example.org,56,Prefer not to say,Oyo,Neutral,Often,Radio,,,Health worker,,,330000.0,2026-03-01,Yes,The clinic was far
+R0296,A. Bello,resp0296@example.org,57,female,Oyo,Strongly agree,Rarely,,Television,,,,,310000.0,2026-03-15,Yes,
+R0297,T. Adeyemi,resp0297@example.org,29,Male,Rivers,Neutral,Rarely,Radio,Television,,,,Agree,30000.0,2026-03-01,Yes,Don't know
+R0298,F. Musa,resp0298@example.org,68,male,Rivers,Strongly agree,Always,,Television,Social media,,,Strongly disagree,335000.0,2026-03-15,Yes,The clinic was far
+R0299,C. Okafor,resp0299@example.org,48,M,FCT,Neutral,Often,,,Social media,,,,150000.0,2026-03-01,Yes,Nothing to add
+R0300,C. Okafor,resp0300@example.org,24,female,Oyo,Neutral,Always,,Television,Social media,,,,310000.0,15-03-2026,Yes,The clinic was far
+R0301,C. Okafor,resp0301@example.org,56,Prefer not to say,  Lagos,Strongly disagree,Rarely,Radio,Television,Social media,,Newspaper,Strongly agree,95000.0,2026-03-01,Yes,N/A
+R0302,C. Okafor,resp0302@example.org,48,M,Kwara,Prefer not to say,Sometimes,,Television,Social media,,,Disagree,265000.0,2026/03/20,Yes,N/A
+R0303,C. Okafor,resp0303@example.org,54,male,LAGOS,Neutral,Rarely,,Television,Social media,,,,250000.0,01/03/2026,Yes,
+R0304,T. Adeyemi,resp0304@example.org,67,female,Lagos,Disagree,Often,,Television,,,,Strongly disagree,310000.0,01/03/2026,Yes,Nothing to add
+R0305,A. Bello,resp0305@example.org,72,Prefer not to say,  Lagos,Strongly agree,Often,Radio,Television,Social media,Health worker,,,245000.0,2026-03-15,Yes,Nothing to add
+R0306,A. Bello,resp0306@example.org,42,female,Rivers,Agree,Rarely,,Television,Social media,,,,-99.0,2026-03-01,Yes,Nothing to add
+R0307,A. Bello,resp0307@example.org,39,male,Kano,Prefer not to say,Sometimes,,Television,Social media,,,,345000.0,15-03-2026,Yes,Nothing to add
+R0308,F. Musa,resp0308@example.org,58,M,,,,,Television,Social media,,,,200000.0,2026/03/20,Yes,-
+R0309,T. Adeyemi,resp0309@example.org,62,female,Lagos,Prefer not to say,Rarely,,,Social media,Health worker,,,220000.0,2026/03/20,Yes,Nothing to add
+R0310,A. Bello,resp0310@example.org,25,M,Kwara,Strongly disagree,Rarely,,,Social media,Health worker,,,390000.0,2026-03-01,Yes,Don't know
+R0311,T. Adeyemi,resp0311@example.org,54,male,LAGOS,Neutral,Always,Radio,,Social media,,Newspaper,,335000.0,2026-03-15,Yes,N/A
+R0312,C. Okafor,resp0312@example.org,54,female,Kwara,Neutral,Rarely,,,Social media,Health worker,,Agree,260000.0,2026/03/20,Yes,N/A
+R0313,A. Bello,resp0313@example.org,73,Male,LAGOS,Neutral,Always,,Television,,Health worker,,,125000.0,15-03-2026,Yes,The clinic was far
+R0314,F. Musa,resp0314@example.org,26,M,LAGOS,Strongly disagree,Always,Radio,Television,,,,,345000.0,2026/03/20,Yes,-
+R0315,T. Adeyemi,resp0315@example.org,51,M,,,,,,,,,,245000.0,01/03/2026,Yes,Don't know
+R0316,F. Musa,resp0316@example.org,41, Female ,LAGOS,Strongly agree,Never,,Television,Social media,,,,220000.0,2026-03-01,Yes,Nothing to add
+R0317,T. Adeyemi,resp0317@example.org,35, Female ,Kano,Strongly agree,Sometimes,Radio,,,Health worker,,,155000.0,01/03/2026,Yes,-
+R0318,C. Okafor,resp0318@example.org,68,female,FCT,Disagree,Never,Radio,Television,,,Newspaper,Strongly agree,30000.0,15-03-2026,Yes,-
+R0319,T. Adeyemi,resp0319@example.org,72,F,Rivers,Agree,Rarely,,,Social media,Health worker,,,35000.0,2026/03/20,Yes,The clinic was far
+R0320,A. Bello,resp0320@example.org,47, Female ,  Lagos,Prefer not to say,Rarely,,Television,Social media,,Newspaper,,135000.0,15-03-2026,Yes,Nothing to add
+R0321,F. Musa,resp0321@example.org,54,Prefer not to say,Rivers,Disagree,Always,Radio,Television,,,,Agree,135000.0,15-03-2026,Yes,Don't know
+R0322,F. Musa,resp0322@example.org,69,M,Rivers,Agree,Rarely,,,Social media,,,,155000.0,2026/03/20,Yes,The clinic was far
+R0323,C. Okafor,resp0323@example.org,24,Prefer not to say,Oyo,Agree,Never,Radio,Television,,,,,205000.0,15-03-2026,Yes,-
+R0324,A. Bello,resp0324@example.org,40,Male,Oyo,Strongly disagree,Rarely,,Television,Social media,,,Neutral,235000.0,2026/03/20,Yes,Nothing to add
+R0325,F. Musa,resp0325@example.org,37,Male,  Lagos,Strongly disagree,Sometimes,,,Social media,,,,115000.0,2026-03-15,Yes,-
+R0326,T. Adeyemi,resp0326@example.org,64,male,lagos,Strongly disagree,Often,,Television,,,,Neutral,270000.0,2026/03/20,Yes,Nothing to add
+R0327,A. Bello,resp0327@example.org,20,female,FCT,Disagree,Sometimes,Radio,Television,Social media,,,,285000.0,2026-03-15,Yes,Don't know
+R0328,T. Adeyemi,resp0328@example.org,41,female,Oyo,Strongly disagree,Rarely,,,,,Newspaper,,110000.0,15-03-2026,Yes,
+R0329,T. Adeyemi,resp0329@example.org,50,Male,,,,,Television,Social media,Health worker,,Agree,200000.0,01/03/2026,Yes,N/A
+R0330,T. Adeyemi,resp0330@example.org,55,female,Oyo,Strongly agree,Rarely,Radio,,,,,,350000.0,2026-03-15,Yes,Nothing to add
+R0331,C. Okafor,resp0331@example.org,52,F,lagos,Prefer not to say,Always,,,Social media,,,,150000.0,2026-03-01,Yes,The clinic was far
+R0332,T. Adeyemi,resp0332@example.org,31,female,Rivers,Strongly disagree,Never,,,Social media,Health worker,,Agree,310000.0,2026-03-15,Yes,
+R0333,F. Musa,resp0333@example.org,53,female,Kwara,Strongly agree,Sometimes,Radio,,Social media,Health worker,,,250000.0,15-03-2026,Yes,N/A
+R0334,T. Adeyemi,resp0334@example.org,55,female,,,,Radio,,,,,Disagree,90000.0,2026-03-15,Yes,
+R0335,T. Adeyemi,resp0335@example.org,32,male,,,,Radio,Television,Social media,Health worker,Newspaper,,175000.0,01/03/2026,Yes,Don't know
+R0336,A. Bello,resp0336@example.org,29,Male,Oyo,Strongly disagree,Often,Radio,Television,,,,,25000.0,2026-03-15,Yes,
+R0337,C. Okafor,resp0337@example.org,18, Female ,  Lagos,Strongly disagree,Always,,Television,,,,,80000.0,01/03/2026,Yes,The clinic was far
+R0338,T. Adeyemi,resp0338@example.org,30,male,Kwara,Disagree,Often,,Television,Social media,Health worker,,,200000.0,2026-03-15,Yes,N/A
+R0339,A. Bello,resp0339@example.org,62,F,LAGOS,Strongly disagree,Sometimes,,Television,Social media,Health worker,,,75000.0,01/03/2026,Yes,Don't know
+R0340,A. Bello,resp0340@example.org,25,Prefer not to say,Rivers,Strongly agree,Never,Radio,Television,,,,,385000.0,01/03/2026,Yes,-
+R0341,C. Okafor,resp0341@example.org,25,M,Lagos,Prefer not to say,Always,Radio,,,Health worker,,,100000.0,2026/03/20,Yes,
+R0342,C. Okafor,resp0342@example.org,35,F,FCT,Agree,Rarely,Radio,Television,,Health worker,Newspaper,Agree,360000.0,2026-03-15,Yes,Nothing to add
+R0343,C. Okafor,resp0343@example.org,51,female,LAGOS,Neutral,Sometimes,,Television,,,,,45000.0,2026/03/20,Yes,N/A
+R0344,F. Musa,resp0344@example.org,49, Female ,lagos,Strongly disagree,Always,Radio,Television,Social media,,,,155000.0,2026-03-15,Yes,Don't know
+R0345,T. Adeyemi,resp0345@example.org,27,F,lagos,Strongly agree,Rarely,,Television,Social media,Health worker,,Strongly disagree,30000.0,01/03/2026,Yes,N/A
+R0346,C. Okafor,resp0346@example.org,21,M,Kano,Strongly disagree,Never,,,Social media,,,,165000.0,2026-03-01,Yes,-
+R0347,A. Bello,resp0347@example.org,999,female,lagos,Strongly disagree,Often,,Television,Social media,,,Neutral,40000.0,2026/03/20,Yes,-
+R0348,A. Bello,resp0348@example.org,68, Female ,Lagos,Disagree,Always,Radio,,Social media,Health worker,,,160000.0,2026/03/20,Yes,Don't know
+R0349,T. Adeyemi,resp0349@example.org,62,Male,FCT,Prefer not to say,Often,,Television,Social media,,,,325000.0,2026-03-15,Yes,Don't know
+R0350,T. Adeyemi,resp0350@example.org,74, Female ,FCT,Strongly agree,Sometimes,,Television,Social media,,,Disagree,365000.0,2026/03/20,Yes,N/A
+R0351,F. Musa,resp0351@example.org,38,M,lagos,Agree,Never,,,Social media,,,,195000.0,2026-03-01,Yes,-
+R0352,C. Okafor,resp0352@example.org,69, Female ,Kwara,Prefer not to say,Sometimes,,Television,Social media,,Newspaper,,295000.0,2026-03-15,Yes,N/A
+R0353,F. Musa,resp0353@example.org,71,F,Kano,Disagree,Sometimes,,Television,Social media,,,Neutral,310000.0,01/03/2026,Yes,The clinic was far
+R0354,A. Bello,resp0354@example.org,53,male,Rivers,Strongly disagree,Always,Radio,,,,,,280000.0,15-03-2026,Yes,
+R0355,C. Okafor,resp0355@example.org,62,male,Kwara,Prefer not to say,Often,Radio,Television,Social media,,,,145000.0,01/03/2026,Yes,
+R0356,T. Adeyemi,resp0356@example.org,43,Prefer not to say,LAGOS,Strongly disagree,Rarely,,,Social media,,,,35000.0,2026/03/20,Yes,The clinic was far
+R0357,T. Adeyemi,resp0357@example.org,47,M,Oyo,Disagree,Often,,Television,Social media,Health worker,,Strongly agree,160000.0,01/03/2026,Yes,
+R0358,T. Adeyemi,resp0358@example.org,35,male,,,,,Television,Social media,,Newspaper,Neutral,110000.0,2026-03-15,Yes,Nothing to add
+R0359,T. Adeyemi,resp0359@example.org,54,female,lagos,Strongly disagree,Rarely,Radio,Television,,,Newspaper,,35000.0,01/03/2026,Yes,Nothing to add
+R0360,F. Musa,resp0360@example.org,999, Female ,Lagos,Neutral,Often,,Television,,Health worker,,,170000.0,2026/03/20,Yes,The clinic was far
+R0361,C. Okafor,resp0361@example.org,59,male,Kwara,Agree,Always,,Television,Social media,Health worker,,,175000.0,2026-03-01,Yes,The clinic was far
+R0362,A. Bello,resp0362@example.org,19,M,Rivers,Prefer not to say,Sometimes,,Television,,,,,245000.0,2026/03/20,Yes,Don't know
+R0363,F. Musa,resp0363@example.org,46,Prefer not to say,LAGOS,Strongly disagree,Rarely,Radio,,Social media,,Newspaper,Strongly agree,200000.0,2026-03-15,Yes,The clinic was far
+R0364,C. Okafor,resp0364@example.org,999, Female ,FCT,Neutral,Sometimes,Radio,,Social media,,,,250000.0,2026-03-01,Yes,Nothing to add
+R0365,C. Okafor,resp0365@example.org,24, Female ,  Lagos,Prefer not to say,Rarely,Radio,Television,,,,,150000.0,15-03-2026,Yes,N/A
+R0366,T. Adeyemi,resp0366@example.org,34,F,FCT,Agree,Always,Radio,,Social media,,,,90000.0,2026-03-15,Yes,Don't know
+R0367,C. Okafor,resp0367@example.org,42,Prefer not to say,Oyo,Prefer not to say,Always,,Television,Social media,,Newspaper,,205000.0,01/03/2026,Yes,Don't know
+R0368,F. Musa,resp0368@example.org,71,M,  Lagos,Neutral,Often,,,Social media,,,Disagree,70000.0,01/03/2026,Yes,N/A
+R0369,F. Musa,resp0369@example.org,53,F,Kano,Strongly agree,Rarely,Radio,Television,Social media,,Newspaper,Strongly agree,305000.0,2026-03-15,Yes,N/A
+R0370,T. Adeyemi,resp0370@example.org,45,female,Oyo,Disagree,Rarely,Radio,,Social media,Health worker,,,130000.0,01/03/2026,Yes,
+R0371,T. Adeyemi,resp0371@example.org,70,F,lagos,Prefer not to say,Sometimes,,,Social media,,,Agree,205000.0,15-03-2026,Yes,Nothing to add
+R0372,A. Bello,resp0372@example.org,48,Male,lagos,Agree,Never,,Television,Social media,,Newspaper,,250000.0,2026/03/20,Yes,Don't know
+R0373,C. Okafor,resp0373@example.org,33,M,  Lagos,Neutral,Sometimes,,Television,Social media,Health worker,,,95000.0,15-03-2026,Yes,Don't know
+R0374,A. Bello,resp0374@example.org,26,Prefer not to say,LAGOS,Disagree,Often,,Television,Social media,,,,130000.0,15-03-2026,Yes,
+R0375,C. Okafor,resp0375@example.org,60,male,Lagos,Strongly disagree,Never,,,Social media,,,Strongly agree,395000.0,01/03/2026,Yes,The clinic was far
+R0376,A. Bello,resp0376@example.org,64,female,FCT,Strongly agree,Rarely,Radio,Television,,Health worker,,,290000.0,2026-03-15,Yes,Don't know
+R0377,C. Okafor,resp0377@example.org,27,Male,Rivers,Strongly disagree,Often,,Television,,,,Disagree,380000.0,15-03-2026,Yes,The clinic was far
+R0378,A. Bello,resp0378@example.org,53,F,Kwara,Disagree,Always,Radio,,,Health worker,,,40000.0,2026-03-15,Yes,
+R0379,A. Bello,resp0379@example.org,57,F,Rivers,Neutral,Never,Radio,Television,Social media,,,Strongly agree,370000.0,2026/03/20,Yes,N/A
+R0380,F. Musa,resp0380@example.org,74,Male,Lagos,Neutral,Sometimes,Radio,Television,Social media,,,,190000.0,15-03-2026,Yes,N/A
+R0381,F. Musa,resp0381@example.org,36,F,  Lagos,Strongly agree,Rarely,,,Social media,,,Strongly disagree,310000.0,2026/03/20,Yes,Don't know
+R0382,F. Musa,resp0382@example.org,31,F,FCT,Disagree,Always,,Television,Social media,,,Strongly agree,150000.0,2026-03-15,Yes,N/A
+R0383,A. Bello,resp0383@example.org,44,male,Lagos,Prefer not to say,Rarely,,,Social media,,,Disagree,-99.0,01/03/2026,Yes,Don't know
+R0384,A. Bello,resp0384@example.org,34, Female ,LAGOS,Strongly agree,Sometimes,,Television,Social media,,,Strongly disagree,115000.0,01/03/2026,Yes,-
+R0385,T. Adeyemi,resp0385@example.org,73,M,Kwara,Prefer not to say,Rarely,,,,,,,265000.0,2026-03-01,Yes,Nothing to add
+R0386,F. Musa,resp0386@example.org,50,F,Kwara,Disagree,Always,,,,,,Neutral,20000.0,2026-03-15,Yes,The clinic was far
+R0387,C. Okafor,resp0387@example.org,51,F,  Lagos,Disagree,Always,Radio,,Social media,,,,175000.0,15-03-2026,Yes,
+R0388,C. Okafor,resp0388@example.org,38,M,Rivers,Disagree,Always,Radio,Television,,,,,285000.0,2026/03/20,Yes,
+R0389,C. Okafor,resp0389@example.org,27, Female ,lagos,Prefer not to say,Always,Radio,Television,,Health worker,,,335000.0,01/03/2026,Yes,N/A
+R0390,T. Adeyemi,resp0390@example.org,39,male,LAGOS,Strongly disagree,Never,Radio,Television,,,,,30000.0,2026-03-01,Yes,Nothing to add
+R0391,F. Musa,resp0391@example.org,999,F,Rivers,Prefer not to say,Rarely,Radio,Television,Social media,,,,80000.0,2026-03-15,Yes,N/A
+R0392,A. Bello,resp0392@example.org,999,F,LAGOS,Strongly agree,Never,Radio,Television,Social media,Health worker,,Neutral,370000.0,01/03/2026,Yes,N/A
+R0393,F. Musa,resp0393@example.org,49,M,Kwara,Disagree,Never,,,Social media,Health worker,,Disagree,385000.0,2026/03/20,Yes,Don't know
+R0394,T. Adeyemi,resp0394@example.org,54, Female ,Rivers,Neutral,Rarely,,,Social media,,,,300000.0,2026/03/20,Yes,N/A
+R0395,T. Adeyemi,resp0395@example.org,21,M,Rivers,Prefer not to say,Often,,,Social media,,,Neutral,255000.0,01/03/2026,Yes,Don't know
+R0396,F. Musa,resp0396@example.org,65,Prefer not to say,FCT,Agree,Often,Radio,Television,Social media,,,,225000.0,2026/03/20,Yes,Nothing to add
+R0397,A. Bello,resp0397@example.org,40,Prefer not to say,Lagos,Neutral,Always,,,Social media,,,Strongly agree,160000.0,2026/03/20,Yes,N/A
+R0398,T. Adeyemi,resp0398@example.org,19, Female ,Kano,Prefer not to say,Always,,,Social media,,,,115000.0,2026-03-01,Yes,Don't know
+R0399,T. Adeyemi,resp0399@example.org,22,F,lagos,Neutral,Always,Radio,Television,Social media,,,,385000.0,15-03-2026,Yes,-
+R0400,A. Bello,resp0400@example.org,20,female,Oyo,Strongly agree,Never,,,Social media,Health worker,,,290000.0,01/03/2026,Yes,N/A
+R0401,F. Musa,resp0401@example.org,34,F,Rivers,Agree,Sometimes,,Television,Social media,,,,190000.0,2026-03-01,Yes,-
+R0402,A. Bello,resp0402@example.org,999,male,LAGOS,Neutral,Never,,,Social media,,,,205000.0,15-03-2026,Yes,The clinic was far
+R0403,C. Okafor,resp0403@example.org,57,female,lagos,Disagree,Rarely,,,Social media,,,,85000.0,01/03/2026,Yes,
+R0404,A. Bello,resp0404@example.org,24,male,,,,,Television,Social media,,,Strongly agree,275000.0,2026/03/20,Yes,N/A
+R0405,T. Adeyemi,resp0405@example.org,50,Prefer not to say,lagos,Agree,Sometimes,Radio,Television,Social media,,,,325000.0,2026-03-15,Yes,The clinic was far
+R0406,F. Musa,resp0406@example.org,999,Male,lagos,Prefer not to say,Sometimes,Radio,Television,Social media,Health worker,,,180000.0,15-03-2026,Yes,Nothing to add
+R0407,A. Bello,resp0407@example.org,30,M,Lagos,Prefer not to say,Always,,Television,Social media,,,Agree,295000.0,2026/03/20,Yes,The clinic was far
+R0408,F. Musa,resp0408@example.org,41, Female ,Rivers,Neutral,Rarely,Radio,,,,,,40000.0,15-03-2026,Yes,Nothing to add
+R0409,A. Bello,resp0409@example.org,57, Female ,Kwara,Neutral,Often,Radio,Television,,Health worker,Newspaper,Neutral,180000.0,2026-03-15,Yes,
+R0410,C. Okafor,resp0410@example.org,73,F,Oyo,Prefer not to say,Often,Radio,Television,,Health worker,,,340000.0,2026-03-01,Yes,-
+R0411,C. Okafor,resp0411@example.org,53,Prefer not to say,Oyo,Agree,Often,,Television,Social media,,,,225000.0,2026-03-01,Yes,Don't know
+R0412,A. Bello,resp0412@example.org,18,female,lagos,Agree,Often,Radio,,,,,Agree,305000.0,2026-03-15,Yes,N/A
+R0413,T. Adeyemi,resp0413@example.org,999, Female ,lagos,Agree,Sometimes,,,Social media,,,,280000.0,2026/03/20,Yes,Don't know
+R0414,F. Musa,resp0414@example.org,32, Female ,Lagos,Neutral,Always,Radio,,,,,,125000.0,2026/03/20,Yes,-
+R0415,C. Okafor,resp0415@example.org,35,F,,,,,Television,Social media,Health worker,,,145000.0,2026-03-15,Yes,-
+R0416,A. Bello,resp0416@example.org,54,Male,Kwara,Strongly agree,Rarely,,,,Health worker,,Disagree,245000.0,2026/03/20,Yes,N/A
+R0417,C. Okafor,resp0417@example.org,31, Female ,lagos,Prefer not to say,Never,,,Social media,,,,210000.0,2026-03-15,Yes,N/A
+R0418,F. Musa,resp0418@example.org,64,Male,  Lagos,Agree,Sometimes,,Television,,Health worker,Newspaper,,130000.0,2026/03/20,Yes,The clinic was far
+R0419,T. Adeyemi,resp0419@example.org,21,female,,,,,Television,Social media,Health worker,Newspaper,Strongly disagree,370000.0,2026-03-15,Yes,The clinic was far
+R0420,T. Adeyemi,resp0420@example.org,24,male,Kwara,Strongly disagree,Often,Radio,,,,,Agree,310000.0,15-03-2026,Yes,The clinic was far
+R0421,A. Bello,resp0421@example.org,49,female,Kwara,Agree,Often,Radio,Television,,,,,40000.0,2026-03-01,Yes,-
+R0422,F. Musa,resp0422@example.org,20,Prefer not to say,lagos,Neutral,Rarely,Radio,Television,Social media,Health worker,,,70000.0,2026-03-15,Yes,The clinic was far
+R0423,T. Adeyemi,resp0423@example.org,62,female,Oyo,Strongly disagree,Rarely,Radio,,Social media,,,Neutral,320000.0,2026/03/20,Yes,The clinic was far
+R0424,A. Bello,resp0424@example.org,999, Female ,Kwara,Neutral,Never,,Television,Social media,,,,345000.0,01/03/2026,Yes,Don't know
+R0425,A. Bello,resp0425@example.org,999,male,Oyo,Agree,Never,,,Social media,,Newspaper,,115000.0,2026-03-01,Yes,-
+R0426,A. Bello,resp0426@example.org,44,F,Oyo,Strongly agree,Never,,Television,Social media,,,,130000.0,15-03-2026,Yes,-
+R0427,T. Adeyemi,resp0427@example.org,35,Male,LAGOS,Disagree,Sometimes,,,,,,,80000.0,2026-03-15,Yes,N/A
+R0428,C. Okafor,resp0428@example.org,59, Female ,LAGOS,Disagree,Often,Radio,Television,Social media,,,,245000.0,01/03/2026,Yes,
+R0429,A. Bello,resp0429@example.org,999,Male,,,,,Television,,,,,135000.0,01/03/2026,Yes,Don't know
+R0430,T. Adeyemi,resp0430@example.org,41,female,,,,,,Social media,Health worker,,Neutral,225000.0,15-03-2026,Yes,
+R0431,C. Okafor,resp0431@example.org,22,F,Lagos,Strongly agree,Sometimes,,,Social media,,,,135000.0,2026-03-15,Yes,
+R0432,C. Okafor,resp0432@example.org,58,Prefer not to say,lagos,Agree,Rarely,Radio,,Social media,,,Neutral,215000.0,2026/03/20,Yes,The clinic was far
+R0433,A. Bello,resp0433@example.org,74,F,Oyo,Disagree,Never,,Television,,,,Neutral,270000.0,01/03/2026,Yes,Don't know
+R0434,F. Musa,resp0434@example.org,29,Prefer not to say,Lagos,Neutral,Rarely,Radio,,,,,,305000.0,2026/03/20,Yes,The clinic was far
+R0435,T. Adeyemi,resp0435@example.org,24,female,lagos,Disagree,Often,Radio,Television,Social media,,,Neutral,85000.0,2026-03-01,Yes,Don't know
+R0436,F. Musa,resp0436@example.org,23,Male,lagos,Agree,Often,Radio,Television,,,,,395000.0,01/03/2026,Yes,Nothing to add
+R0437,C. Okafor,resp0437@example.org,20,M,LAGOS,Agree,Rarely,,,Social media,,,,160000.0,01/03/2026,Yes,-
+R0438,C. Okafor,resp0438@example.org,72,F,Oyo,Strongly agree,Never,,Television,,,,,275000.0,2026/03/20,Yes,The clinic was far
+R0439,A. Bello,resp0439@example.org,43,M,Kano,Strongly disagree,Always,,,Social media,Health worker,,,155000.0,2026-03-01,Yes,
+R0440,F. Musa,resp0440@example.org,25,male,lagos,Strongly agree,Always,Radio,Television,,,,,240000.0,15-03-2026,Yes,Don't know
+R0441,A. Bello,resp0441@example.org,39,male,FCT,Strongly agree,Never,Radio,,Social media,,,,135000.0,2026-03-01,Yes,Nothing to add
+R0442,A. Bello,resp0442@example.org,47,male,FCT,Strongly disagree,Never,Radio,Television,Social media,,,,45000.0,2026/03/20,Yes,Don't know
+R0443,C. Okafor,resp0443@example.org,36,female,LAGOS,Strongly disagree,Often,,,,,,,145000.0,2026-03-15,Yes,-
+R0444,T. Adeyemi,resp0444@example.org,32,Male,Lagos,Neutral,Sometimes,,Television,,,,,345000.0,2026-03-15,Yes,The clinic was far
+R0445,A. Bello,resp0445@example.org,27,M,Lagos,Strongly disagree,Often,,Television,,Health worker,,,95000.0,15-03-2026,Yes,N/A
+R0446,A. Bello,resp0446@example.org,33,M,,,,Radio,Television,Social media,Health worker,Newspaper,,150000.0,2026/03/20,Yes,Don't know
+R0447,F. Musa,resp0447@example.org,56,male,FCT,Agree,Always,,Television,Social media,,,Neutral,110000.0,2026-03-15,Yes,N/A
+R0448,F. Musa,resp0448@example.org,64,Prefer not to say,Kwara,Disagree,Sometimes,Radio,,Social media,Health worker,,,120000.0,01/03/2026,Yes,Don't know
+R0449,C. Okafor,resp0449@example.org,25,female,,,,,Television,Social media,Health worker,,,205000.0,2026-03-15,Yes,N/A
+R0450,C. Okafor,resp0450@example.org,49, Female ,Lagos,Strongly disagree,Often,,,,,,,350000.0,2026/03/20,Yes,-
+R0451,F. Musa,resp0451@example.org,45, Female ,,,,Radio,Television,Social media,Health worker,,,75000.0,2026-03-15,Yes,
+R0452,C. Okafor,resp0452@example.org,43, Female ,Lagos,Neutral,Never,,Television,Social media,,,,130000.0,2026-03-01,Yes,
+R0453,T. Adeyemi,resp0453@example.org,58,male,Lagos,Strongly agree,Often,Radio,Television,Social media,,,,235000.0,15-03-2026,Yes,N/A
+R0454,T. Adeyemi,resp0454@example.org,38,M,FCT,Strongly disagree,Sometimes,Radio,Television,Social media,,,,285000.0,15-03-2026,Yes,The clinic was far
+R0455,T. Adeyemi,resp0455@example.org,61,M,,,,Radio,Television,Social media,,,Strongly disagree,380000.0,15-03-2026,Yes,
+R0456,F. Musa,resp0456@example.org,41,female,LAGOS,Agree,Always,,Television,Social media,,,Strongly disagree,195000.0,2026/03/20,Yes,-
+R0457,T. Adeyemi,resp0457@example.org,29,Male,Kwara,Disagree,Sometimes,Radio,,Social media,Health worker,,,185000.0,15-03-2026,Yes,N/A
+R0458,C. Okafor,resp0458@example.org,999,Male,,,,,Television,Social media,,,,305000.0,2026-03-01,Yes,-
+R0459,A. Bello,resp0459@example.org,69, Female ,Oyo,Strongly agree,Never,Radio,Television,Social media,,Newspaper,,235000.0,15-03-2026,Yes,Don't know
+R0460,F. Musa,resp0460@example.org,18, Female ,Rivers,Strongly agree,Never,,,Social media,Health worker,,,350000.0,2026-03-15,Yes,-
+R0461,F. Musa,resp0461@example.org,32,male,FCT,Strongly disagree,Always,,,Social media,,,,315000.0,15-03-2026,Yes,-
+R0462,C. Okafor,resp0462@example.org,21,female,Oyo,Strongly agree,Rarely,,,Social media,,,,345000.0,2026/03/20,Yes,Don't know
+R0463,A. Bello,resp0463@example.org,41,M,Lagos,Strongly disagree,Rarely,,Television,Social media,,,,385000.0,2026/03/20,Yes,-
+R0464,F. Musa,resp0464@example.org,999,male,Lagos,Disagree,Rarely,,Television,Social media,Health worker,Newspaper,Strongly disagree,275000.0,2026-03-01,Yes,
+R0465,T. Adeyemi,resp0465@example.org,63,M,Kwara,Disagree,Never,Radio,,Social media,,,Strongly disagree,45000.0,2026-03-15,Yes,Don't know
+R0466,A. Bello,resp0466@example.org,65,Male,Kano,Strongly agree,Rarely,Radio,Television,Social media,,,Strongly agree,225000.0,2026-03-15,Yes,N/A
+R0467,C. Okafor,resp0467@example.org,47,F,Lagos,Strongly disagree,Always,,Television,,,,,345000.0,2026-03-01,Yes,Don't know
+R0468,C. Okafor,resp0468@example.org,73,F,lagos,Neutral,Always,Radio,,Social media,,,Agree,140000.0,2026/03/20,Yes,N/A
+R0469,F. Musa,resp0469@example.org,22,M,Lagos,Strongly agree,Rarely,,Television,Social media,,Newspaper,,320000.0,2026-03-01,Yes,The clinic was far
+R0470,F. Musa,resp0470@example.org,58,Prefer not to say,lagos,Disagree,Always,,,Social media,,,Agree,240000.0,01/03/2026,Yes,
+R0471,T. Adeyemi,resp0471@example.org,58,Male,  Lagos,Agree,Always,,Television,Social media,,,,70000.0,01/03/2026,Yes,
+R0472,C. Okafor,resp0472@example.org,36,female,  Lagos,Strongly disagree,Rarely,,,Social media,,,,175000.0,15-03-2026,Yes,-
+R0473,T. Adeyemi,resp0473@example.org,46,F,,,,Radio,Television,Social media,,Newspaper,,65000.0,2026-03-01,Yes,
+R0474,A. Bello,resp0474@example.org,26,M,FCT,Disagree,Sometimes,,Television,Social media,,,,300000.0,01/03/2026,Yes,-
+R0475,T. Adeyemi,resp0475@example.org,47, Female ,LAGOS,Neutral,Always,,,Social media,,,,250000.0,15-03-2026,Yes,-
+R0476,T. Adeyemi,resp0476@example.org,44,Male,Kwara,Disagree,Always,,,,Health worker,,,200000.0,15-03-2026,Yes,The clinic was far
+R0477,T. Adeyemi,resp0477@example.org,57,F,,,,,,Social media,,,,245000.0,2026/03/20,Yes,Don't know
+R0478,F. Musa,resp0478@example.org,35,Male,Kwara,Strongly agree,Never,Radio,Television,,,,,220000.0,15-03-2026,Yes,
+R0479,F. Musa,resp0479@example.org,41, Female ,Kwara,Prefer not to say,Rarely,Radio,,Social media,,Newspaper,,200000.0,2026-03-01,Yes,-
+R0480,F. Musa,resp0480@example.org,999,M,  Lagos,Strongly agree,Always,,Television,Social media,,,Agree,370000.0,15-03-2026,Yes,-
+R0481,T. Adeyemi,resp0481@example.org,21,male,Kano,Neutral,Often,,,Social media,,,,280000.0,01/03/2026,Yes,The clinic was far
+R0482,A. Bello,resp0482@example.org,68,Prefer not to say,LAGOS,Disagree,Sometimes,Radio,Television,Social media,,,,60000.0,2026/03/20,Yes,
+R0483,F. Musa,resp0483@example.org,19,F,,,,Radio,,Social media,,,,280000.0,2026/03/20,Yes,-
+R0484,T. Adeyemi,resp0484@example.org,31,F,LAGOS,Agree,Always,Radio,Television,,,,Disagree,300000.0,2026-03-15,Yes,Don't know
+R0485,T. Adeyemi,resp0485@example.org,74,F,Kwara,Strongly agree,Rarely,Radio,Television,Social media,,,,280000.0,15-03-2026,Yes,-
+R0486,A. Bello,resp0486@example.org,55,female,  Lagos,Neutral,Sometimes,,Television,Social media,,Newspaper,,125000.0,2026-03-01,Yes,N/A
+R0487,F. Musa,resp0487@example.org,44,M,LAGOS,Agree,Often,,Television,Social media,Health worker,,,180000.0,2026/03/20,Yes,N/A
+R0488,A. Bello,resp0488@example.org,61,M,Kwara,Strongly disagree,Never,Radio,Television,Social media,,,,60000.0,15-03-2026,Yes,Don't know
+R0489,C. Okafor,resp0489@example.org,22,F,LAGOS,Strongly disagree,Always,,Television,,,,,60000.0,01/03/2026,Yes,Nothing to add
+R0490,F. Musa,resp0490@example.org,36,Prefer not to say,  Lagos,Prefer not to say,Rarely,,Television,Social media,Health worker,,Agree,165000.0,2026/03/20,Yes,
+R0491,F. Musa,resp0491@example.org,59,Male,FCT,Strongly agree,Often,,Television,Social media,,Newspaper,,305000.0,2026-03-15,Yes,-
+R0492,A. Bello,resp0492@example.org,68,male,Kwara,Prefer not to say,Rarely,Radio,Television,Social media,,,Strongly disagree,345000.0,01/03/2026,Yes,The clinic was far
+R0493,T. Adeyemi,resp0493@example.org,74, Female ,Rivers,Strongly disagree,Rarely,Radio,,Social media,,,,265000.0,2026-03-01,Yes,-
+R0494,T. Adeyemi,resp0494@example.org,45,male,  Lagos,Neutral,Often,,,,,,,230000.0,15-03-2026,Yes,Nothing to add
+R0495,F. Musa,resp0495@example.org,44,male,Kwara,Strongly disagree,Rarely,,,Social media,,,,205000.0,2026/03/20,Yes,
+R0496,C. Okafor,resp0496@example.org,48,male,,,,,Television,Social media,,,Strongly agree,210000.0,2026-03-15,Yes,N/A
+R0497,F. Musa,resp0497@example.org,26,M,  Lagos,Strongly agree,Rarely,Radio,Television,Social media,,,Strongly disagree,300000.0,01/03/2026,Yes,-
+R0498,C. Okafor,resp0498@example.org,18,M,  Lagos,Strongly agree,Sometimes,Radio,,Social media,,Newspaper,,340000.0,15-03-2026,Yes,The clinic was far
+R0499,T. Adeyemi,resp0499@example.org,22,female,Kano,Disagree,Sometimes,Radio,Television,Social media,,,,185000.0,01/03/2026,Yes,The clinic was far
+R0500,C. Okafor,resp0500@example.org,999, Female ,Rivers,Disagree,Always,,Television,Social media,,Newspaper,Agree,90000.0,2026-03-15,Yes,Don't know
+R0501,C. Okafor,resp0501@example.org,60,M,  Lagos,Prefer not to say,Always,Radio,Television,Social media,,,,230000.0,2026/03/20,Yes,Don't know
+R0502,A. Bello,resp0502@example.org,999, Female ,LAGOS,Strongly agree,Often,Radio,Television,Social media,,,,375000.0,01/03/2026,Yes,-
+R0503,T. Adeyemi,resp0503@example.org,74, Female ,lagos,Disagree,Never,Radio,Television,Social media,Health worker,Newspaper,Disagree,320000.0,2026-03-15,Yes,Don't know
+R0504,T. Adeyemi,resp0504@example.org,33, Female ,Rivers,Strongly agree,Sometimes,,Television,,,,,360000.0,15-03-2026,Yes,
+R0505,A. Bello,resp0505@example.org,29,female,Kwara,Agree,Sometimes,Radio,Television,Social media,,,Agree,230000.0,2026/03/20,Yes,The clinic was far
+R0506,A. Bello,resp0506@example.org,69,male,Oyo,Strongly disagree,Sometimes,Radio,,Social media,Health worker,,,175000.0,2026/03/20,Yes,Don't know
+R0507,A. Bello,resp0507@example.org,48,Prefer not to say,Oyo,Agree,Never,Radio,Television,Social media,,,,80000.0,15-03-2026,Yes,-
+R0508,A. Bello,resp0508@example.org,68, Female ,Oyo,Strongly disagree,Never,,,Social media,,,,-99.0,2026-03-15,Yes,
+R0509,T. Adeyemi,resp0509@example.org,35,male,,,,,Television,,,,,390000.0,15-03-2026,Yes,
+R0510,C. Okafor,resp0510@example.org,30,Prefer not to say,,,,,Television,,Health worker,,,100000.0,2026-03-01,Yes,-
+R0511,T. Adeyemi,resp0511@example.org,62,Prefer not to say,Rivers,Prefer not to say,Always,Radio,,,,,,250000.0,15-03-2026,Yes,-
+R0512,T. Adeyemi,resp0512@example.org,20,Prefer not to say,  Lagos,Neutral,Always,Radio,,Social media,,,,145000.0,01/03/2026,Yes,The clinic was far
+R0513,A. Bello,resp0513@example.org,33,M,  Lagos,Strongly disagree,Often,Radio,,Social media,,,,275000.0,2026-03-15,Yes,Nothing to add
+R0514,A. Bello,resp0514@example.org,73,Male,LAGOS,Strongly disagree,Always,,Television,Social media,,,Neutral,375000.0,2026-03-01,Yes,Nothing to add
+R0515,T. Adeyemi,resp0515@example.org,26,Prefer not to say,Oyo,Agree,Never,Radio,,Social media,,,Agree,170000.0,2026-03-15,Yes,N/A
+R0516,A. Bello,resp0516@example.org,62,F,Rivers,Prefer not to say,Never,,Television,Social media,Health worker,,Agree,260000.0,2026/03/20,Yes,Don't know
+R0517,F. Musa,resp0517@example.org,59,male,  Lagos,Neutral,Never,Radio,Television,Social media,Health worker,,,20000.0,01/03/2026,Yes,The clinic was far
+R0518,C. Okafor,resp0518@example.org,42,Prefer not to say,LAGOS,Disagree,Never,Radio,Television,Social media,Health worker,,,100000.0,15-03-2026,Yes,The clinic was far
+R0519,T. Adeyemi,resp0519@example.org,52,female,Kano,Neutral,Always,,Television,Social media,Health worker,,,280000.0,15-03-2026,Yes,The clinic was far
+R0520,F. Musa,resp0520@example.org,999,M,  Lagos,Agree,Always,,,Social media,,,,40000.0,2026/03/20,Yes,
+R0521,F. Musa,resp0521@example.org,50,Male,Rivers,Prefer not to say,Often,,Television,Social media,,,,280000.0,2026-03-01,Yes,N/A
+R0522,C. Okafor,resp0522@example.org,45, Female ,lagos,Disagree,Always,Radio,,Social media,,,Agree,85000.0,2026-03-15,Yes,Don't know
+R0523,T. Adeyemi,resp0523@example.org,68,male,FCT,Agree,Rarely,,Television,,,Newspaper,,130000.0,01/03/2026,Yes,Nothing to add
+R0524,T. Adeyemi,resp0524@example.org,75,M,Rivers,Disagree,Rarely,,,Social media,Health worker,,,115000.0,2026/03/20,Yes,
+R0525,F. Musa,resp0525@example.org,42,Male,Kano,Strongly disagree,Always,Radio,Television,Social media,,Newspaper,,360000.0,2026-03-15,Yes,N/A
+R0526,A. Bello,resp0526@example.org,60,Male,lagos,Agree,Never,,,Social media,,Newspaper,,360000.0,2026-03-01,Yes,Nothing to add
+R0527,A. Bello,resp0527@example.org,70,female,FCT,Disagree,Sometimes,,,Social media,,,Neutral,215000.0,01/03/2026,Yes,
+R0528,T. Adeyemi,resp0528@example.org,41,Prefer not to say,Kwara,Disagree,Often,Radio,Television,Social media,,,,235000.0,01/03/2026,Yes,N/A
+R0529,T. Adeyemi,resp0529@example.org,65,female,Oyo,Agree,Often,,,,,,,20000.0,15-03-2026,Yes,N/A
+R0530,A. Bello,resp0530@example.org,20, Female ,FCT,Agree,Rarely,,Television,Social media,,,,370000.0,2026-03-01,Yes,Don't know
+R0531,F. Musa,resp0531@example.org,41,M,,,,,Television,Social media,,,,260000.0,15-03-2026,Yes,Don't know
+R0532,T. Adeyemi,resp0532@example.org,59, Female ,  Lagos,Disagree,Sometimes,Radio,Television,Social media,,,Strongly agree,350000.0,2026-03-15,Yes,N/A
+R0533,F. Musa,resp0533@example.org,48, Female ,Oyo,Strongly disagree,Never,,Television,Social media,,,Agree,325000.0,2026-03-01,Yes,Don't know
+R0534,F. Musa,resp0534@example.org,31,male,LAGOS,Neutral,Never,Radio,,Social media,Health worker,,Agree,220000.0,01/03/2026,Yes,Don't know
+R0535,C. Okafor,resp0535@example.org,37, Female ,Rivers,Prefer not to say,Always,,,Social media,Health worker,,,375000.0,01/03/2026,Yes,-
+R0536,C. Okafor,resp0536@example.org,60,M,  Lagos,Strongly disagree,Never,Radio,,Social media,,,,340000.0,15-03-2026,Yes,Nothing to add
+R0537,T. Adeyemi,resp0537@example.org,70, Female ,lagos,Prefer not to say,Often,,,,,,,105000.0,01/03/2026,Yes,Nothing to add
+R0538,T. Adeyemi,resp0538@example.org,23,male,LAGOS,Strongly agree,Never,,Television,Social media,Health worker,,Strongly disagree,390000.0,15-03-2026,Yes,
+R0539,F. Musa,resp0539@example.org,999,F,Oyo,Strongly disagree,Sometimes,Radio,Television,Social media,Health worker,Newspaper,Strongly agree,270000.0,2026-03-01,Yes,-
+R0540,C. Okafor,resp0540@example.org,26,Prefer not to say,lagos,Strongly disagree,Never,,Television,Social media,,,,290000.0,2026-03-15,Yes,The clinic was far
+R0541,C. Okafor,resp0541@example.org,63,female,LAGOS,Prefer not to say,Often,,,Social media,,Newspaper,,265000.0,15-03-2026,Yes,N/A
+R0542,F. Musa,resp0542@example.org,49,Male,lagos,Prefer not to say,Sometimes,,,,,,,200000.0,2026/03/20,Yes,Don't know
+R0543,A. Bello,resp0543@example.org,27,F,LAGOS,Strongly agree,Never,,Television,,,Newspaper,Strongly agree,120000.0,2026-03-01,Yes,-
+R0544,C. Okafor,resp0544@example.org,68,male,lagos,Strongly disagree,Always,,Television,Social media,,Newspaper,,280000.0,01/03/2026,Yes,The clinic was far
+R0545,F. Musa,resp0545@example.org,39, Female ,Lagos,Strongly disagree,Never,,Television,Social media,,,Agree,110000.0,2026-03-01,Yes,Nothing to add
+R0546,C. Okafor,resp0546@example.org,999,male,Kwara,Neutral,Often,Radio,Television,,Health worker,,,80000.0,2026-03-01,Yes,N/A
+R0547,C. Okafor,resp0547@example.org,46,F,LAGOS,Agree,Never,Radio,Television,Social media,Health worker,Newspaper,Disagree,,2026-03-15,Yes,Nothing to add
+R0548,A. Bello,resp0548@example.org,30,Prefer not to say,,,,Radio,Television,Social media,,,,95000.0,2026-03-15,Yes,Nothing to add
+R0549,C. Okafor,resp0549@example.org,49,M,LAGOS,Agree,Never,Radio,Television,,Health worker,,,-99.0,2026-03-01,Yes,The clinic was far
+R0550,F. Musa,resp0550@example.org,68,male,  Lagos,Neutral,Rarely,,Television,Social media,,,Neutral,60000.0,15-03-2026,Yes,Don't know
+R0551,C. Okafor,resp0551@example.org,61,F,Rivers,Agree,Rarely,,,Social media,,,Neutral,290000.0,2026-03-15,Yes,N/A
+R0552,F. Musa,resp0552@example.org,36,female,lagos,Strongly agree,Sometimes,Radio,,Social media,Health worker,,,-99.0,01/03/2026,Yes,The clinic was far
+R0553,T. Adeyemi,resp0553@example.org,63,M,LAGOS,Strongly disagree,Never,,,,,Newspaper,,245000.0,2026/03/20,Yes,-
+R0554,A. Bello,resp0554@example.org,22,M,FCT,Disagree,Often,Radio,,,,,,125000.0,2026-03-01,Yes,Nothing to add
+R0555,C. Okafor,resp0555@example.org,29,M,FCT,Strongly disagree,Sometimes,,,Social media,Health worker,,,255000.0,2026-03-01,Yes,-
+R0556,T. Adeyemi,resp0556@example.org,25,F,Kano,Prefer not to say,Always,,,Social media,,,,85000.0,2026-03-15,Yes,Nothing to add
+R0557,F. Musa,resp0557@example.org,27,Prefer not to say,Kwara,Prefer not to say,Always,,,,Health worker,,,35000.0,2026-03-15,Yes,The clinic was far
+R0558,T. Adeyemi,resp0558@example.org,32,Male,LAGOS,Agree,Often,Radio,,,Health worker,,,270000.0,2026/03/20,Yes,The clinic was far
+R0559,T. Adeyemi,resp0559@example.org,27, Female ,Lagos,Strongly agree,Never,,Television,Social media,,,Disagree,110000.0,2026-03-15,Yes,-
+R0560,A. Bello,resp0560@example.org,999,M,  Lagos,Strongly disagree,Always,,,,Health worker,,Neutral,35000.0,2026-03-15,Yes,Nothing to add
+R0561,A. Bello,resp0561@example.org,64,F,lagos,Strongly disagree,Often,,Television,Social media,Health worker,,,45000.0,01/03/2026,Yes,
+R0562,T. Adeyemi,resp0562@example.org,18, Female ,  Lagos,Strongly disagree,Never,,Television,Social media,,Newspaper,,265000.0,01/03/2026,Yes,Nothing to add
+R0563,A. Bello,resp0563@example.org,44,M,lagos,Agree,Always,,Television,,,,,215000.0,2026/03/20,Yes,N/A
+R0564,A. Bello,resp0564@example.org,53,male,Lagos,Strongly agree,Rarely,,Television,Social media,,,Strongly agree,285000.0,01/03/2026,Yes,N/A
+R0565,A. Bello,resp0565@example.org,18,female,Rivers,Strongly agree,Often,,,Social media,,,Disagree,95000.0,15-03-2026,Yes,-
+R0566,F. Musa,resp0566@example.org,38,Male,LAGOS,Strongly agree,Rarely,Radio,Television,,,,,130000.0,01/03/2026,Yes,Don't know
+R0567,A. Bello,resp0567@example.org,36,female,lagos,Prefer not to say,Often,,Television,Social media,,,,270000.0,2026-03-15,Yes,N/A
+R0568,A. Bello,resp0568@example.org,46,female,Kwara,Prefer not to say,Rarely,,Television,Social media,,,Neutral,245000.0,01/03/2026,Yes,The clinic was far
+R0569,A. Bello,resp0569@example.org,38,Male,Lagos,Neutral,Never,,Television,Social media,,,Neutral,30000.0,2026-03-01,Yes,N/A
+R0570,C. Okafor,resp0570@example.org,29, Female ,Oyo,Neutral,Always,Radio,Television,Social media,Health worker,Newspaper,Disagree,245000.0,2026-03-01,Yes,-
+R0571,F. Musa,resp0571@example.org,44,female,FCT,Neutral,Rarely,,,,,,,45000.0,2026-03-01,Yes,N/A
+R0572,C. Okafor,resp0572@example.org,65,female,Kano,Strongly agree,Often,,Television,Social media,,,,395000.0,2026/03/20,Yes,N/A
+R0573,F. Musa,resp0573@example.org,65,female,,,,,Television,Social media,,,,315000.0,01/03/2026,Yes,Don't know
+R0574,T. Adeyemi,resp0574@example.org,65,male,Lagos,Disagree,Always,Radio,,,,,Disagree,210000.0,2026-03-15,Yes,Nothing to add
+R0575,T. Adeyemi,resp0575@example.org,45, Female ,  Lagos,Prefer not to say,Always,,Television,,,,,140000.0,2026-03-15,Yes,The clinic was far
+R0576,C. Okafor,resp0576@example.org,74,Prefer not to say,FCT,Neutral,Always,Radio,,Social media,,,,30000.0,15-03-2026,Yes,Nothing to add
+R0577,T. Adeyemi,resp0577@example.org,43,M,  Lagos,Agree,Sometimes,,Television,Social media,Health worker,,,50000.0,2026-03-15,Yes,
+R0578,A. Bello,resp0578@example.org,65, Female ,Kano,Strongly disagree,Never,Radio,Television,Social media,Health worker,,Neutral,180000.0,01/03/2026,Yes,Don't know
+R0579,C. Okafor,resp0579@example.org,69,Prefer not to say,LAGOS,Neutral,Never,,Television,Social media,,,,375000.0,2026-03-01,Yes,The clinic was far
+R0580,C. Okafor,resp0580@example.org,70,M,Kano,Disagree,Rarely,,Television,,,,,300000.0,2026-03-15,Yes,
+R0581,C. Okafor,resp0581@example.org,42,Prefer not to say,  Lagos,Disagree,Often,,Television,Social media,,Newspaper,Strongly disagree,320000.0,2026-03-15,Yes,-
+R0582,T. Adeyemi,resp0582@example.org,58,Prefer not to say,  Lagos,Prefer not to say,Always,Radio,Television,Social media,Health worker,Newspaper,Neutral,365000.0,2026/03/20,Yes,Nothing to add
+R0583,T. Adeyemi,resp0583@example.org,39,female,  Lagos,Strongly disagree,Always,Radio,Television,Social media,,,,195000.0,2026-03-01,Yes,N/A
+R0584,C. Okafor,resp0584@example.org,999,Prefer not to say,lagos,Strongly disagree,Rarely,Radio,,Social media,Health worker,,Strongly agree,45000.0,15-03-2026,Yes,
+R0585,A. Bello,resp0585@example.org,25, Female ,  Lagos,Agree,Rarely,,Television,Social media,,,,135000.0,01/03/2026,Yes,N/A
+R0586,T. Adeyemi,resp0586@example.org,25,F,Rivers,Strongly agree,Rarely,,,Social media,Health worker,Newspaper,Strongly disagree,260000.0,2026/03/20,Yes,N/A
+R0587,T. Adeyemi,resp0587@example.org,44,M,Kwara,Prefer not to say,Never,Radio,,Social media,,,,195000.0,15-03-2026,Yes,Nothing to add
+R0588,C. Okafor,resp0588@example.org,41,female,Oyo,Strongly agree,Often,,,Social media,,,,30000.0,01/03/2026,Yes,N/A
+R0589,F. Musa,resp0589@example.org,57,Male,Kano,Agree,Often,,Television,,Health worker,Newspaper,Neutral,265000.0,15-03-2026,Yes,N/A
+R0590,A. Bello,resp0590@example.org,44,Male,Lagos,Prefer not to say,Often,Radio,,,,Newspaper,Strongly disagree,90000.0,2026-03-15,Yes,Don't know
+R0591,T. Adeyemi,resp0591@example.org,44,Male,Lagos,Strongly agree,Rarely,,Television,Social media,Health worker,,,,2026/03/20,Yes,
+R0592,A. Bello,resp0592@example.org,49,male,  Lagos,Disagree,Never,,Television,Social media,,,Strongly disagree,345000.0,01/03/2026,Yes,The clinic was far
+R0593,A. Bello,resp0593@example.org,39,male,Rivers,Agree,Never,,Television,Social media,Health worker,,,155000.0,01/03/2026,Yes,
+R0594,A. Bello,resp0594@example.org,999, Female ,Kano,Prefer not to say,Never,Radio,,,,,Disagree,30000.0,15-03-2026,Yes,Nothing to add
+R0595,F. Musa,resp0595@example.org,35,F,Kano,Strongly agree,Rarely,,Television,Social media,Health worker,Newspaper,Neutral,115000.0,2026-03-01,Yes,The clinic was far
+R0596,A. Bello,resp0596@example.org,39,female,lagos,Disagree,Never,,Television,Social media,Health worker,,,265000.0,2026-03-15,Yes,Nothing to add
+R0597,A. Bello,resp0597@example.org,60,F,Oyo,Neutral,Never,,,Social media,,,,90000.0,2026-03-15,Yes,N/A
+R0598,F. Musa,resp0598@example.org,69,male,lagos,Strongly disagree,Sometimes,Radio,,Social media,,,,325000.0,2026/03/20,Yes,Don't know
+R0599,C. Okafor,resp0599@example.org,999,F,Lagos,Neutral,Rarely,,,Social media,Health worker,,,190000.0,01/03/2026,Yes,N/A
+R0449,C. Okafor,resp0449@example.org,25,female,,,,,Television,Social media,Health worker,,,205000.0,2026-03-15,Yes,N/A
+R0141,C. Okafor,resp0141@example.org,26,F,  Lagos,Agree,Always,Radio,Television,Social media,,,,160000.0,2026-03-01,Yes,-
+R0131,C. Okafor,resp0131@example.org,61,Male,lagos,Disagree,Always,,,,Health worker,,Strongly disagree,370000.0,2026-03-01,Yes,N/A
+R0311,T. Adeyemi,resp0311@example.org,54,male,LAGOS,Neutral,Always,Radio,,Social media,,Newspaper,,335000.0,2026-03-15,Yes,N/A
+R0176,T. Adeyemi,resp0176@example.org,52,M,LAGOS,Strongly agree,Often,,,Social media,,,,55000.0,2026-03-01,Yes,N/A
+R0134,C. Okafor,resp0134@example.org,32,F,Rivers,Disagree,Sometimes,,,Social media,,,Strongly agree,180000.0,2026-03-15,Yes,
+R0551,C. Okafor,resp0551@example.org,61,F,Rivers,Agree,Rarely,,,Social media,,,Neutral,290000.0,2026-03-15,Yes,N/A
+R0152,A. Bello,resp0152@example.org,50,F,Oyo,Prefer not to say,Often,,Television,Social media,,,Strongly agree,205000.0,15-03-2026,Yes,The clinic was far
+R0123,T. Adeyemi,resp0123@example.org,34,M,Lagos,Prefer not to say,Never,Radio,Television,Social media,,Newspaper,,205000.0,2026-03-15,Yes,The clinic was far
+R0317,T. Adeyemi,resp0317@example.org,35, Female ,Kano,Strongly agree,Sometimes,Radio,,,Health worker,,,155000.0,01/03/2026,Yes,-
+R0515,T. Adeyemi,resp0515@example.org,26,Prefer not to say,Oyo,Agree,Never,Radio,,Social media,,,Agree,170000.0,2026-03-15,Yes,N/A
+R0067,C. Okafor,resp0067@example.org,29,M,Rivers,Agree,Sometimes,,,Social media,Health worker,,Strongly disagree,285000.0,2026-03-15,Yes,Nothing to add

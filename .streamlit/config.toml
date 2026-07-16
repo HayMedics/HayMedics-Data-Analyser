@@ -1,0 +1,18 @@
+# Streamlit's own theming layer. Doing it here rather than in CSS means the
+# widgets Streamlit renders itself — sliders, toggles, tab underlines, focus
+# rings — pick up the brand colours too. CSS alone can't reach most of those.
+#
+# Values are the ones sampled from the logo files. See src/hma/brand.py.
+
+[theme]
+primaryColor = "#2E57A6"            # the pillars
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F4F7FC"  # pale blue tint for panels
+textColor = "#0D033F"               # the "Academy" navy
+font = "sans serif"
+
+[server]
+maxUploadSize = 200
+
+[browser]
+gatherUsageStats = false

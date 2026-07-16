@@ -1,0 +1,71 @@
+name: tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python: ["3.11", "3.12"]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v3
+        with:
+          enable-cache: true
+
+      - name: Set up Python ${{ matrix.python }}
+        run: uv python install ${{ matrix.python }}
+
+      # Installs from pyproject.toml alone. This is the point of the job: an
+      # undeclared dependency works on the machine that wrote it and fails
+      # everywhere else. matplotlib shipped that way once — every test passed
+      # locally because the container happened to have it.
+      - name: Install
+        run: uv sync --extra dev
+
+      - name: Lint
+        run: uv run ruff check src/ app.py tests/ scripts/
+
+      - name: Test
+        run: uv run pytest -q
+
+      # The headline claim is that the exported script reproduces the session.
+      # Prove it in CI rather than asserting it in the README.
+      - name: Prove the exported script reproduces the cleaned data
+        run: |
+          uv run python scripts/make_messy_survey.py
+          uv run python - <<'PY'
+          import subprocess, sys, tempfile, pathlib
+          import pandas as pd
+          sys.path.insert(0, "src")
+          from hma.ledger import Ledger
+          from hma.pipeline import build_plan
+          from hma.profiling import profile
+
+          tmp = pathlib.Path(tempfile.mkdtemp())
+          raw = tmp / "raw.csv"
+          pd.read_csv("data/messy_survey.csv").to_csv(raw, index=False)
+
+          df = pd.read_csv(raw)
+          ledger = Ledger(source_name=str(raw))
+          for step in build_plan(profile(df).findings, df).runnable:
+              if step.confidence >= 0.90:
+                  df = ledger.apply(df, step.op, step.params, step.rationale)
+          df.to_csv(tmp / "from_app.csv", index=False)
+          (tmp / "clean.py").write_text(ledger.to_script())
+
+          subprocess.run([sys.executable, "clean.py"], cwd=tmp, check=True)
+          pd.testing.assert_frame_equal(
+              pd.read_csv(tmp / "from_app.csv"), pd.read_csv(tmp / "cleaned.csv")
+          )
+          print(f"Exported script reproduced the session exactly ({len(ledger)} steps).")
+          PY

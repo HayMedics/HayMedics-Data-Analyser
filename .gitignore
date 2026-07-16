@@ -1,0 +1,38 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+.DS_Store
+
+# Never commit real data — a survey export has respondents in it, and a
+# clinical export has patients. Once it's in the history it is public even
+# after you delete the file.
+data/*.csv
+data/*.xlsx
+data/*.xls
+data/*.json
+
+# Except the synthetic fixtures, which contain nobody and make the demo work
+# on a fresh clone.
+#
+# NOTE: the comment MUST be on its own line. In .gitignore a `#` only starts a
+# comment at the start of a line — inline, it becomes part of the pattern, so
+# `!data/messy_survey.csv   # safe` matches nothing and silently ignores the
+# file anyway. That's how the demo button ends up broken for everyone who
+# clones the repo.
+!data/messy_survey.csv
+!data/dirty_healthcare.csv
+
+# Working output — regenerate it, don't version it.
+cleaned.csv
+clean.py
+*_dashboard.html
+*_insights.md
+hma_findings_*.pdf
+hma_quality_*.pdf
+*_bundle.zip

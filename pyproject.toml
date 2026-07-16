@@ -1,0 +1,56 @@
+[project]
+name = "haymedics-data-analyser"
+version = "0.1.0"
+description = "HayMedics Data Analyser — clean data with a receipt. Every change recorded, every session reproducible."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "Awal Olalekan Abdulrahman", email = "you@example.com" }]
+license = { text = "MIT" }
+keywords = ["survey", "data-cleaning", "reproducibility", "research", "streamlit", "haymedics"]
+
+dependencies = [
+    "streamlit>=1.40",
+    "pandas>=2.2",
+    "duckdb>=1.1",          # compute layer — handles files bigger than RAM
+    "reportlab>=4.2",       # PDF reports
+    "openai>=1.50",         # pointed at OpenRouter, not OpenAI
+    "openpyxl>=3.1",        # engine for .xlsx — pandas loads it dynamically
+    "xlrd>=2.0",            # engine for legacy .xls, which the uploader offers
+    "matplotlib>=3.8",      # chart rendering
+    "numpy>=1.26",
+    "pillow>=10.0",         # sizes the logo in the PDF letterhead
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "ruff>=0.6",
+    "pypdf>=4.0",           # asserts the report is actually branded
+    "markdown-it-py>=3.0",  # asserts the CSS survives the markdown pass
+]
+
+[project.urls]
+Repository = "https://github.com/HayMedics/haymedics-data-analyser"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/hma"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src", "."]
+addopts = "-q"
+markers = [
+    "slow: drives the Streamlit app end to end (adds ~2 min). `-m 'not slow'` to skip.",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+ignore = ["E501"]
